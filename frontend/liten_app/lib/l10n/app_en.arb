@@ -1,0 +1,43 @@
+{
+  "@@locale": "en",
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "Application name"
+  },
+  "hello": "Hello",
+  "@hello": {
+    "description": "Greeting"
+  },
+  "litenSpace": "Liten Space",
+  "@litenSpace": {
+    "description": "Liten space name"
+  },
+  "createNew": "Create New",
+  "@createNew": {
+    "description": "Create new button"
+  },
+  "listen": "Listen",
+  "@listen": {
+    "description": "Listen tab"
+  },
+  "write": "Write",
+  "@write": {
+    "description": "Write tab"
+  },
+  "draw": "Draw",
+  "@draw": {
+    "description": "Draw tab"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings menu"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language setting"
+  },
+  "theme": "Theme",
+  "@theme": {
+    "description": "Theme setting"
+  }
+}

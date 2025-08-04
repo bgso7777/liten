@@ -1,0 +1,43 @@
+{
+  "@@locale": "ko",
+  "appTitle": "리튼",
+  "@appTitle": {
+    "description": "애플리케이션 이름"
+  },
+  "hello": "안녕하세요",
+  "@hello": {
+    "description": "인사말"
+  },
+  "litenSpace": "리튼 공간",
+  "@litenSpace": {
+    "description": "리튼 공간 이름"
+  },
+  "createNew": "새로 만들기",
+  "@createNew": {
+    "description": "새로 만들기 버튼"
+  },
+  "listen": "듣기",
+  "@listen": {
+    "description": "듣기 탭"
+  },
+  "write": "쓰기",
+  "@write": {
+    "description": "쓰기 탭"
+  },
+  "draw": "필기",
+  "@draw": {
+    "description": "필기 탭"
+  },
+  "settings": "설정",
+  "@settings": {
+    "description": "설정 메뉴"
+  },
+  "language": "언어",
+  "@language": {
+    "description": "언어 설정"
+  },
+  "theme": "테마",
+  "@theme": {
+    "description": "테마 설정"
+  }
+}
