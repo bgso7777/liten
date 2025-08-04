@@ -14,7 +14,7 @@
 
 1.2 리튼 앱 적용 방향
 기존 구조를 확장하여 리튼의 요구사항에 맞게 개선:
-- 14개 언어 지원을 위한 국제화 UI
+- 31개 언어 지원을 위한 국제화 UI
 - 무료/프리미엄 차별화 UI
 - 크로스플랫폼 최적화
 - 접근성 강화
@@ -26,7 +26,7 @@
 2.1 메인 앱 구조 (MainApp)
 MaterialApp
 ├── Theme Configuration (5가지 테마 시스템)
-├── Localization (14개 언어)
+├── Localization (31개 언어)
 ├── Navigation Routes
 └── MainTabScreen (메인 화면)
 
@@ -1814,7 +1814,7 @@ class SupportedLanguage {
   });
 }
 
-// 지원하는 14개 언어 목록
+// 지원하는 31개 언어 목록
 class LanguageData {
   static const List<SupportedLanguage> supportedLanguages = [
     SupportedLanguage(code: 'ko', name: 'Korean', nativeName: '한국어', flag: '🇰🇷'),
@@ -2164,7 +2164,7 @@ class LanguageSettingsCard extends StatelessWidget {
                 color: Theme.of(context).primaryColor,
               ),
               title: Text('언어 변경'),
-              subtitle: Text('14개 언어 중 선택'),
+              subtitle: Text('31개 언어 중 선택'),
               trailing: Icon(Icons.arrow_forward_ios, size: 16),
               onTap: () => _showLanguageSelection(context),
             ),
@@ -6154,7 +6154,7 @@ class _MainScreenState extends State<MainScreen> {
 
 이제 **비기능적 요구사항의 세 가지 사항**이 모두 적용되었습니다:
 
-1. ✅ **시스템 언어 자동 감지** - WelcomeScreen에서 14개 지원 언어 자동 감지
+1. ✅ **시스템 언어 자동 감지** - WelcomeScreen에서 31개 지원 언어 자동 감지
 2. ✅ **국가별 테마 자동 선택** - 지역별 선호 테마 자동 매핑 (5가지 테마)
 3. ✅ **상단 상태 표시** - TopStatusBar로 현재 리튼명/파일명 항상 표시
 4. ✅ **UUID 생성 및 서버 등록** - 앱 설치 시 고유 아이디 생성 후 서버 등록
@@ -6169,14 +6169,14 @@ class _MainScreenState extends State<MainScreen> {
 3. ✅ **5가지 테마 시스템** - 완전한 테마 선택 및 관리 UI
 4. ✅ **리치 텍스트 에디터 도구바** - 마크다운 지원 도구바
 5. ✅ **음성 북마크 기능 UI** - 타임스탬프 북마크 시스템
-6. ✅ **14개 언어 국제화 UI** - 언어 선택 및 전환 인터페이스
+6. ✅ **31개 언어 국제화 UI** - 언어 선택 및 전환 인터페이스
 7. ✅ **파일 변환 프로세스 UI** - 포맷 변환 진행 상황 표시
 8. ✅ **완전한 설정 화면** - 모듈식 설정 카드 구조
 9. ✅ **필기 도구 상세 UI** - 9가지 전문 필기 도구
 10. ✅ **검색 및 온보딩 UI** - 통합 검색 시스템 및 5단계 온보딩
 
 ### 비기능적 요구사항 (4가지)
-11. ✅ **시스템 언어 자동 감지** - 설치 시 14개 언어 자동 매핑
+11. ✅ **시스템 언어 자동 감지** - 설치 시 31개 언어 자동 매핑
 12. ✅ **국가별 테마 자동 선택** - 지역별 선호 테마 자동 설정 
 13. ✅ **상단 상태 표시** - TopStatusBar로 현재 상태 실시간 표시
 14. ✅ **UUID 생성 및 서버 등록** - 앱 고유 아이디 생성 시스템

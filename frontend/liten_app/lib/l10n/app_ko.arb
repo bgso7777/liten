@@ -1,43 +1,115 @@
 {
   "@@locale": "ko",
+  "@@author": "Liten Team",
+  
   "appTitle": "리튼",
   "@appTitle": {
-    "description": "애플리케이션 이름"
+    "description": "앱 이름"
   },
-  "hello": "안녕하세요",
-  "@hello": {
-    "description": "인사말"
+  
+  "appDescription": "음성-텍스트 동기화 노트 앱",
+  "@appDescription": {
+    "description": "앱 설명"
   },
-  "litenSpace": "리튼 공간",
-  "@litenSpace": {
-    "description": "리튼 공간 이름"
+  
+  "common_ok": "확인",
+  "common_cancel": "취소",
+  "common_save": "저장",
+  "common_delete": "삭제",
+  "common_edit": "편집",
+  "common_share": "공유",
+  "common_search": "검색",
+  "common_settings": "설정",
+  "common_back": "뒤로",
+  "common_next": "다음",
+  "common_loading": "로딩 중...",
+  "common_error": "오류가 발생했습니다",
+  "common_retry": "다시 시도",
+  
+  "main_title": "리튼 공간",
+  "@main_title": {
+    "description": "메인 화면 제목"
   },
-  "createNew": "새로 만들기",
-  "@createNew": {
-    "description": "새로 만들기 버튼"
+  
+  "main_create_new": "새 리튼 만들기",
+  "main_empty_message": "아직 리튼이 없습니다.\n새 리튼을 만들어 시작해보세요.",
+  
+  "liten_space_title": "리튼 공간",
+  "liten_space_description": "음성, 텍스트, 필기를 함께 관리하는 공간",
+  
+  "audio_record": "녹음",
+  "audio_stop": "정지",
+  "audio_play": "재생",
+  "audio_pause": "일시정지",
+  "audio_duration": "길이: {duration}",
+  "@audio_duration": {
+    "description": "오디오 길이 표시",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
   },
-  "listen": "듣기",
-  "@listen": {
-    "description": "듣기 탭"
+  
+  "text_editor_title": "텍스트 작성",
+  "text_editor_placeholder": "여기에 내용을 입력하세요...",
+  "text_editor_word_count": "{count}자",
+  "@text_editor_word_count": {
+    "description": "글자수 표시",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
   },
-  "write": "쓰기",
-  "@write": {
-    "description": "쓰기 탭"
+  
+  "drawing_title": "필기 및 스케치",
+  "drawing_pen": "펜",
+  "drawing_eraser": "지우개",
+  "drawing_clear": "전체 지우기",
+  "drawing_undo": "실행 취소",
+  "drawing_redo": "다시 실행",
+  
+  "settings_title": "설정",
+  "settings_theme": "테마",
+  "settings_language": "언어",
+  "settings_audio_quality": "음성 품질",
+  "settings_storage": "저장소",
+  "settings_about": "앱 정보",
+  
+  "theme_classic_blue": "클래식 블루",
+  "theme_dark_mode": "다크 모드",
+  "theme_nature_green": "네이처 그린",
+  "theme_sunset_orange": "선셋 오렌지",
+  "theme_monochrome_grey": "모노크롬 그레이",
+  
+  "error_permission_denied": "권한이 거부되었습니다",
+  "error_storage_full": "저장 공간이 부족합니다",
+  "error_file_not_found": "파일을 찾을 수 없습니다",
+  "error_network_unavailable": "네트워크에 연결할 수 없습니다",
+  
+  "permission_microphone_title": "마이크 권한",
+  "permission_microphone_message": "음성 녹음을 위해 마이크 권한이 필요합니다",
+  "permission_storage_title": "저장소 권한",
+  "permission_storage_message": "파일 저장을 위해 저장소 권한이 필요합니다",
+  
+  "sync_title": "동기화",
+  "sync_last_updated": "마지막 업데이트: {date}",
+  "@sync_last_updated": {
+    "description": "마지막 동기화 시간",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
   },
-  "draw": "필기",
-  "@draw": {
-    "description": "필기 탭"
-  },
-  "settings": "설정",
-  "@settings": {
-    "description": "설정 메뉴"
-  },
-  "language": "언어",
-  "@language": {
-    "description": "언어 설정"
-  },
-  "theme": "테마",
-  "@theme": {
-    "description": "테마 설정"
-  }
+  
+  "version_free": "무료 버전",
+  "version_standard": "스탠다드 버전",
+  "version_premium": "프리미엄 버전",
+  
+  "ad_banner_message": "광고를 제거하려면 스탠다드 버전으로 업그레이드하세요"
 }
