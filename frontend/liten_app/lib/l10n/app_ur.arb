@@ -1,0 +1,115 @@
+{
+  "@@locale": "ur",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "ایپ کا نام"
+  },
+  
+  "appDescription": "آواز-متن سنکرونائزڈ نوٹ ایپ",
+  "@appDescription": {
+    "description": "ایپ کی تفصیل"
+  },
+  
+  "common_ok": "ٹھیک ہے",
+  "common_cancel": "منسوخ کریں",
+  "common_save": "محفوظ کریں",
+  "common_delete": "حذف کریں",
+  "common_edit": "ترمیم",
+  "common_share": "شیئر کریں",
+  "common_search": "تلاش",
+  "common_settings": "ترتیبات",
+  "common_back": "واپس",
+  "common_next": "اگلا",
+  "common_loading": "لوڈ ہو رہا ہے...",
+  "common_error": "خرابی ہوئی ہے",
+  "common_retry": "دوبارہ کوشش کریں",
+  
+  "main_title": "Liten کی جگہیں",
+  "@main_title": {
+    "description": "مرکزی اسکرین کا عنوان"
+  },
+  
+  "main_create_new": "نیا Liten بنائیں",
+  "main_empty_message": "ابھی کوئی Liten جگہ نہیں ہے۔\nشروع کرنے کے لیے نئی بنائیں۔",
+  
+  "liten_space_title": "Liten کی جگہ",
+  "liten_space_description": "آواز، متن اور ڈرائنگ کو ایک ساتھ منظم کرنے کی جگہ",
+  
+  "audio_record": "ریکارڈ کریں",
+  "audio_stop": "رک جائیں",
+  "audio_play": "چلائیں",
+  "audio_pause": "موقوف کریں",
+  "audio_duration": "مدت: {duration}",
+  "@audio_duration": {
+    "description": "آڈیو کی مدت دکھانا",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "متن ایڈیٹر",
+  "text_editor_placeholder": "اپنا مواد یہاں درج کریں...",
+  "text_editor_word_count": "{count} حروف",
+  "@text_editor_word_count": {
+    "description": "حروف کی تعداد دکھانا",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "ڈرائنگ اور اسکیچنگ",
+  "drawing_pen": "قلم",
+  "drawing_eraser": "ربڑ",
+  "drawing_clear": "سب صاف کریں",
+  "drawing_undo": "واپس کریں",
+  "drawing_redo": "دوبارہ کریں",
+  
+  "settings_title": "ترتیبات",
+  "settings_theme": "تھیم",
+  "settings_language": "زبان",
+  "settings_audio_quality": "آڈیو کوالٹی",
+  "settings_storage": "اسٹوریج",
+  "settings_about": "کے بارے میں",
+  
+  "theme_classic_blue": "کلاسک نیلا",
+  "theme_dark_mode": "ڈارک موڈ",
+  "theme_nature_green": "قدرتی سبز",
+  "theme_sunset_orange": "غروب آفتاب نارنجی",
+  "theme_monochrome_grey": "مونوکروم خاکستری",
+  
+  "error_permission_denied": "اجازت مسترد",
+  "error_storage_full": "اسٹوریج بھرا ہوا",
+  "error_file_not_found": "فائل نہیں ملی",
+  "error_network_unavailable": "نیٹ ورک دستیاب نہیں",
+  
+  "permission_microphone_title": "مائیکروفون کی اجازت",
+  "permission_microphone_message": "آواز ریکارڈ کرنے کے لیے مائیکروفون کی اجازت درکار ہے",
+  "permission_storage_title": "اسٹوریج کی اجازت",
+  "permission_storage_message": "فائلز محفوظ کرنے کے لیے اسٹوریج کی اجازت درکار ہے",
+  
+  "sync_title": "سنک",
+  "sync_last_updated": "آخری اپڈیٹ: {date}",
+  "@sync_last_updated": {
+    "description": "آخری سنک کا وقت",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "مفت ورژن",
+  "version_standard": "معیاری ورژن", 
+  "version_premium": "پریمیم ورژن",
+  
+  "ad_banner_message": "اشتہارات ہٹانے کے لیے معیاری ورژن میں اپگریڈ کریں"
+}

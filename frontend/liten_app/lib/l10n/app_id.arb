@@ -1,0 +1,115 @@
+{
+  "@@locale": "id",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "Nama aplikasi"
+  },
+  
+  "appDescription": "Aplikasi catatan sinkronisasi suara-teks",
+  "@appDescription": {
+    "description": "Deskripsi aplikasi"
+  },
+  
+  "common_ok": "OK",
+  "common_cancel": "Batal",
+  "common_save": "Simpan",
+  "common_delete": "Hapus",
+  "common_edit": "Edit",
+  "common_share": "Bagikan",
+  "common_search": "Cari",
+  "common_settings": "Pengaturan",
+  "common_back": "Kembali",
+  "common_next": "Berikutnya",
+  "common_loading": "Memuat...",
+  "common_error": "Terjadi kesalahan",
+  "common_retry": "Coba lagi",
+  
+  "main_title": "Ruang Liten",
+  "@main_title": {
+    "description": "Judul layar utama"
+  },
+  
+  "main_create_new": "Buat Liten Baru",
+  "main_empty_message": "Belum ada ruang Liten.\nBuat yang baru untuk memulai.",
+  
+  "liten_space_title": "Ruang Liten",
+  "liten_space_description": "Ruang untuk mengelola suara, teks, dan gambar bersama-sama",
+  
+  "audio_record": "Rekam",
+  "audio_stop": "Berhenti",
+  "audio_play": "Putar",
+  "audio_pause": "Jeda",
+  "audio_duration": "Durasi: {duration}",
+  "@audio_duration": {
+    "description": "Tampilan durasi audio",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "Editor Teks",
+  "text_editor_placeholder": "Masukkan konten Anda di sini...",
+  "text_editor_word_count": "{count} karakter",
+  "@text_editor_word_count": {
+    "description": "Tampilan jumlah karakter",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "Menggambar & Sketsa",
+  "drawing_pen": "Pena",
+  "drawing_eraser": "Penghapus",
+  "drawing_clear": "Hapus Semua",
+  "drawing_undo": "Urungkan",
+  "drawing_redo": "Ulangi",
+  
+  "settings_title": "Pengaturan",
+  "settings_theme": "Tema",
+  "settings_language": "Bahasa",
+  "settings_audio_quality": "Kualitas Audio",
+  "settings_storage": "Penyimpanan",
+  "settings_about": "Tentang",
+  
+  "theme_classic_blue": "Biru Klasik",
+  "theme_dark_mode": "Mode Gelap",
+  "theme_nature_green": "Hijau Alam",
+  "theme_sunset_orange": "Orange Senja",
+  "theme_monochrome_grey": "Abu-abu Monokrom",
+  
+  "error_permission_denied": "Izin ditolak",
+  "error_storage_full": "Penyimpanan penuh",
+  "error_file_not_found": "File tidak ditemukan",
+  "error_network_unavailable": "Jaringan tidak tersedia",
+  
+  "permission_microphone_title": "Izin Mikrofon",
+  "permission_microphone_message": "Izin mikrofon diperlukan untuk perekaman suara",
+  "permission_storage_title": "Izin Penyimpanan",
+  "permission_storage_message": "Izin penyimpanan diperlukan untuk menyimpan file",
+  
+  "sync_title": "Sinkronisasi",
+  "sync_last_updated": "Terakhir diperbarui: {date}",
+  "@sync_last_updated": {
+    "description": "Waktu sinkronisasi terakhir",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "Versi Gratis",
+  "version_standard": "Versi Standar", 
+  "version_premium": "Versi Premium",
+  
+  "ad_banner_message": "Upgrade ke versi Standar untuk menghapus iklan"
+}

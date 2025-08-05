@@ -1,0 +1,115 @@
+{
+  "@@locale": "nl",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "App-naam"
+  },
+  
+  "appDescription": "Spraak-tekst gesynchroniseerde notitie-app",
+  "@appDescription": {
+    "description": "App-beschrijving"
+  },
+  
+  "common_ok": "OK",
+  "common_cancel": "Annuleren",
+  "common_save": "Opslaan",
+  "common_delete": "Verwijderen",
+  "common_edit": "Bewerken",
+  "common_share": "Delen",
+  "common_search": "Zoeken",
+  "common_settings": "Instellingen",
+  "common_back": "Terug",
+  "common_next": "Volgende",
+  "common_loading": "Laden...",
+  "common_error": "Er is een fout opgetreden",
+  "common_retry": "Opnieuw proberen",
+  
+  "main_title": "Liten Ruimtes",
+  "@main_title": {
+    "description": "Hoofdscherm titel"
+  },
+  
+  "main_create_new": "Nieuwe Liten maken",
+  "main_empty_message": "Nog geen Liten ruimtes.\nMaak er een nieuwe om te beginnen.",
+  
+  "liten_space_title": "Liten Ruimte",
+  "liten_space_description": "Een ruimte om spraak, tekst en tekeningen samen te beheren",
+  
+  "audio_record": "Opnemen",
+  "audio_stop": "Stoppen",
+  "audio_play": "Afspelen",
+  "audio_pause": "Pauzeren",
+  "audio_duration": "Duur: {duration}",
+  "@audio_duration": {
+    "description": "Audio duur weergave",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "Teksteditor",
+  "text_editor_placeholder": "Voer hier uw inhoud in...",
+  "text_editor_word_count": "{count} tekens",
+  "@text_editor_word_count": {
+    "description": "Tekentelling weergave",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "Tekenen & Schetsen",
+  "drawing_pen": "Pen",
+  "drawing_eraser": "Gum",
+  "drawing_clear": "Alles wissen",
+  "drawing_undo": "Ongedaan maken",
+  "drawing_redo": "Opnieuw doen",
+  
+  "settings_title": "Instellingen",
+  "settings_theme": "Thema",
+  "settings_language": "Taal",
+  "settings_audio_quality": "Audiokwaliteit",
+  "settings_storage": "Opslag",
+  "settings_about": "Over",
+  
+  "theme_classic_blue": "Klassiek Blauw",
+  "theme_dark_mode": "Donkere Modus",
+  "theme_nature_green": "Natuurgroen",
+  "theme_sunset_orange": "Zonsondergang Oranje",
+  "theme_monochrome_grey": "Monochroom Grijs",
+  
+  "error_permission_denied": "Toestemming geweigerd",
+  "error_storage_full": "Opslag vol",
+  "error_file_not_found": "Bestand niet gevonden",
+  "error_network_unavailable": "Netwerk niet beschikbaar",
+  
+  "permission_microphone_title": "Microfoon Toestemming",
+  "permission_microphone_message": "Microfoon toestemming is vereist voor spraakopname",
+  "permission_storage_title": "Opslag Toestemming",
+  "permission_storage_message": "Opslag toestemming is vereist voor het opslaan van bestanden",
+  
+  "sync_title": "Synchronisatie",
+  "sync_last_updated": "Laatst bijgewerkt: {date}",
+  "@sync_last_updated": {
+    "description": "Laatste synchronisatietijd",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "Gratis Versie",
+  "version_standard": "Standaard Versie", 
+  "version_premium": "Premium Versie",
+  
+  "ad_banner_message": "Upgrade naar Standaard versie om advertenties te verwijderen"
+}

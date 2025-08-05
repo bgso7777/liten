@@ -1,0 +1,115 @@
+{
+  "@@locale": "bn",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "অ্যাপের নাম"
+  },
+  
+  "appDescription": "ভয়েস-টেক্সট সিঙ্ক্রোনাইজড নোট অ্যাপ",
+  "@appDescription": {
+    "description": "অ্যাপের বিবরণ"
+  },
+  
+  "common_ok": "ঠিক আছে",
+  "common_cancel": "বাতিল",
+  "common_save": "সংরক্ষণ",
+  "common_delete": "মুছুন",
+  "common_edit": "সম্পাদনা",
+  "common_share": "শেয়ার",
+  "common_search": "খোঁজ",
+  "common_settings": "সেটিংস",
+  "common_back": "পিছনে",
+  "common_next": "পরবর্তী",
+  "common_loading": "লোড হচ্ছে...",
+  "common_error": "একটি ত্রুটি ঘটেছে",
+  "common_retry": "আবার চেষ্টা করুন",
+  
+  "main_title": "Liten স্পেস",
+  "@main_title": {
+    "description": "মূল স্ক্রিনের শিরোনাম"
+  },
+  
+  "main_create_new": "নতুন Liten তৈরি করুন",
+  "main_empty_message": "এখনও কোন Liten স্পেস নেই।\nশুরু করতে নতুন একটি তৈরি করুন।",
+  
+  "liten_space_title": "Liten স্পেস",
+  "liten_space_description": "ভয়েস, টেক্সট এবং ড্রইং একসাথে পরিচালনার স্থান",
+  
+  "audio_record": "রেকর্ড",
+  "audio_stop": "থামুন",
+  "audio_play": "চালান",
+  "audio_pause": "বিরতি",
+  "audio_duration": "সময়কাল: {duration}",
+  "@audio_duration": {
+    "description": "অডিও সময়কাল প্রদর্শন",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "টেক্সট এডিটর",
+  "text_editor_placeholder": "এখানে আপনার বিষয়বস্তু লিখুন...",
+  "text_editor_word_count": "{count} অক্ষর",
+  "@text_editor_word_count": {
+    "description": "অক্ষর সংখ্যা প্রদর্শন",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "অঙ্কন ও স্কেচিং",
+  "drawing_pen": "কলম",
+  "drawing_eraser": "মুছনী",
+  "drawing_clear": "সব মুছুন",
+  "drawing_undo": "পূর্বাবস্থা",
+  "drawing_redo": "আবার করুন",
+  
+  "settings_title": "সেটিংস",
+  "settings_theme": "থিম",
+  "settings_language": "ভাষা",
+  "settings_audio_quality": "অডিও গুণমান",
+  "settings_storage": "স্টোরেজ",
+  "settings_about": "সম্পর্কে",
+  
+  "theme_classic_blue": "ক্লাসিক নীল",
+  "theme_dark_mode": "ডার্ক মোড",
+  "theme_nature_green": "প্রকৃতি সবুজ",
+  "theme_sunset_orange": "সূর্যাস্ত কমলা",
+  "theme_monochrome_grey": "মনোক্রোম ধূসর",
+  
+  "error_permission_denied": "অনুমতি প্রত্যাখ্যান",
+  "error_storage_full": "স্টোরেজ পূর্ণ",
+  "error_file_not_found": "ফাইল পাওয়া যায়নি",
+  "error_network_unavailable": "নেটওয়ার্ক অনুপলব্ধ",
+  
+  "permission_microphone_title": "মাইক্রোফোন অনুমতি",
+  "permission_microphone_message": "ভয়েস রেকর্ডিংয়ের জন্য মাইক্রোফোন অনুমতি প্রয়োজন",
+  "permission_storage_title": "স্টোরেজ অনুমতি",
+  "permission_storage_message": "ফাইল সংরক্ষণের জন্য স্টোরেজ অনুমতি প্রয়োজন",
+  
+  "sync_title": "সিঙ্ক",
+  "sync_last_updated": "সর্বশেষ আপডেট: {date}",
+  "@sync_last_updated": {
+    "description": "সর্বশেষ সিঙ্ক সময়",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "ফ্রি সংস্করণ",
+  "version_standard": "স্ট্যান্ডার্ড সংস্করণ", 
+  "version_premium": "প্রিমিয়াম সংস্করণ",
+  
+  "ad_banner_message": "বিজ্ঞাপন সরাতে স্ট্যান্ডার্ড সংস্করণে আপগ্রেড করুন"
+}

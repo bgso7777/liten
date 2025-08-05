@@ -1,0 +1,115 @@
+{
+  "@@locale": "ru",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "Название приложения"
+  },
+  
+  "appDescription": "Приложение для заметок с синхронизацией голос-текст",
+  "@appDescription": {
+    "description": "Описание приложения"
+  },
+  
+  "common_ok": "ОК",
+  "common_cancel": "Отмена",
+  "common_save": "Сохранить",
+  "common_delete": "Удалить",
+  "common_edit": "Изменить",
+  "common_share": "Поделиться",
+  "common_search": "Поиск",
+  "common_settings": "Настройки",
+  "common_back": "Назад",
+  "common_next": "Далее",
+  "common_loading": "Загрузка...",
+  "common_error": "Произошла ошибка",
+  "common_retry": "Повторить",
+  
+  "main_title": "Пространства Liten",
+  "@main_title": {
+    "description": "Заголовок главного экрана"
+  },
+  
+  "main_create_new": "Создать новый Liten",
+  "main_empty_message": "Пока нет пространств Liten.\nСоздайте новое, чтобы начать.",
+  
+  "liten_space_title": "Пространство Liten",
+  "liten_space_description": "Пространство для управления голосом, текстом и рисунками вместе",
+  
+  "audio_record": "Записать",
+  "audio_stop": "Остановить",
+  "audio_play": "Воспроизвести",
+  "audio_pause": "Пауза",
+  "audio_duration": "Длительность: {duration}",
+  "@audio_duration": {
+    "description": "Отображение длительности аудио",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "Текстовый редактор",
+  "text_editor_placeholder": "Введите ваш контент здесь...",
+  "text_editor_word_count": "{count} символов",
+  "@text_editor_word_count": {
+    "description": "Отображение количества символов",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "Рисование и наброски",
+  "drawing_pen": "Ручка",
+  "drawing_eraser": "Ластик",
+  "drawing_clear": "Очистить всё",
+  "drawing_undo": "Отменить",
+  "drawing_redo": "Повторить",
+  
+  "settings_title": "Настройки",
+  "settings_theme": "Тема",
+  "settings_language": "Язык",
+  "settings_audio_quality": "Качество аудио",
+  "settings_storage": "Хранилище",
+  "settings_about": "О приложении",
+  
+  "theme_classic_blue": "Классический синий",
+  "theme_dark_mode": "Тёмный режим",
+  "theme_nature_green": "Природный зелёный",
+  "theme_sunset_orange": "Оранжевый закат",
+  "theme_monochrome_grey": "Монохромный серый",
+  
+  "error_permission_denied": "Разрешение отклонено",
+  "error_storage_full": "Хранилище заполнено",
+  "error_file_not_found": "Файл не найден",
+  "error_network_unavailable": "Сеть недоступна",
+  
+  "permission_microphone_title": "Разрешение на микрофон",
+  "permission_microphone_message": "Разрешение на микрофон требуется для записи голоса",
+  "permission_storage_title": "Разрешение на хранилище",
+  "permission_storage_message": "Разрешение на хранилище требуется для сохранения файлов",
+  
+  "sync_title": "Синхронизация",
+  "sync_last_updated": "Последнее обновление: {date}",
+  "@sync_last_updated": {
+    "description": "Время последней синхронизации",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "Бесплатная версия",
+  "version_standard": "Стандартная версия", 
+  "version_premium": "Премиум версия",
+  
+  "ad_banner_message": "Обновитесь до стандартной версии, чтобы убрать рекламу"
+}

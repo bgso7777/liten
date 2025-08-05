@@ -1,0 +1,115 @@
+{
+  "@@locale": "hi",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "ऐप का नाम"
+  },
+  
+  "appDescription": "आवाज-टेक्स्ट सिंक्रोनाइज़्ड नोट ऐप",
+  "@appDescription": {
+    "description": "ऐप का विवरण"
+  },
+  
+  "common_ok": "ठीक है",
+  "common_cancel": "रद्द करें",
+  "common_save": "सेव करें",
+  "common_delete": "डिलीट करें",
+  "common_edit": "संपादित करें",
+  "common_share": "साझा करें",
+  "common_search": "खोजें",
+  "common_settings": "सेटिंग्स",
+  "common_back": "वापस",
+  "common_next": "अगला",
+  "common_loading": "लोड हो रहा है...",
+  "common_error": "एक त्रुटि हुई है",
+  "common_retry": "पुनः प्रयास करें",
+  
+  "main_title": "Liten स्पेस",
+  "@main_title": {
+    "description": "मुख्य स्क्रीन का शीर्षक"
+  },
+  
+  "main_create_new": "नया Liten बनाएं",
+  "main_empty_message": "अभी तक कोई Liten स्पेस नहीं है।\nशुरू करने के लिए एक नया बनाएं।",
+  
+  "liten_space_title": "Liten स्पेस",
+  "liten_space_description": "आवाज, टेक्स्ट और ड्रॉइंग को एक साथ प्रबंधित करने का स्थान",
+  
+  "audio_record": "रिकॉर्ड करें",
+  "audio_stop": "रोकें",
+  "audio_play": "चलाएं",
+  "audio_pause": "रोकें",
+  "audio_duration": "अवधि: {duration}",
+  "@audio_duration": {
+    "description": "ऑडियो अवधि प्रदर्शन",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "टेक्स्ट एडिटर",
+  "text_editor_placeholder": "यहां अपनी सामग्री दर्ज करें...",
+  "text_editor_word_count": "{count} अक्षर",
+  "@text_editor_word_count": {
+    "description": "अक्षर संख्या प्रदर्शन",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "ड्रॉइंग और स्केचिंग",
+  "drawing_pen": "पेन",
+  "drawing_eraser": "इरेज़र",
+  "drawing_clear": "सब साफ करें",
+  "drawing_undo": "पूर्ववत करें",
+  "drawing_redo": "दोबारा करें",
+  
+  "settings_title": "सेटिंग्स",
+  "settings_theme": "थीम",
+  "settings_language": "भाषा",
+  "settings_audio_quality": "ऑडियो गुणवत्ता",
+  "settings_storage": "स्टोरेज",
+  "settings_about": "के बारे में",
+  
+  "theme_classic_blue": "क्लासिक ब्लू",
+  "theme_dark_mode": "डार्क मोड",
+  "theme_nature_green": "नेचर ग्रीन",
+  "theme_sunset_orange": "सनसेट ऑरेंज",
+  "theme_monochrome_grey": "मोनोक्रोम ग्रे",
+  
+  "error_permission_denied": "अनुमति अस्वीकृत",
+  "error_storage_full": "स्टोरेज भरा हुआ है",
+  "error_file_not_found": "फाइल नहीं मिली",
+  "error_network_unavailable": "नेटवर्क उपलब्ध नहीं",
+  
+  "permission_microphone_title": "माइक्रोफोन अनुमति",
+  "permission_microphone_message": "आवाज रिकॉर्डिंग के लिए माइक्रोफोन अनुमति आवश्यक है",
+  "permission_storage_title": "स्टोरेज अनुमति",
+  "permission_storage_message": "फाइलें सेव करने के लिए स्टोरेज अनुमति आवश्यक है",
+  
+  "sync_title": "सिंक",
+  "sync_last_updated": "अंतिम अपडेट: {date}",
+  "@sync_last_updated": {
+    "description": "अंतिम सिंक समय",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "मुफ्त संस्करण",
+  "version_standard": "स्टैंडर्ड संस्करण", 
+  "version_premium": "प्रीमियम संस्करण",
+  
+  "ad_banner_message": "विज्ञापन हटाने के लिए स्टैंडर्ड संस्करण में अपग्रेड करें"
+}

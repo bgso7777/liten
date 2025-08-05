@@ -1,0 +1,115 @@
+{
+  "@@locale": "tr",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "Uygulama adı"
+  },
+  
+  "appDescription": "Ses-metin senkronize not uygulaması",
+  "@appDescription": {
+    "description": "Uygulama açıklaması"
+  },
+  
+  "common_ok": "Tamam",
+  "common_cancel": "İptal",
+  "common_save": "Kaydet",
+  "common_delete": "Sil",
+  "common_edit": "Düzenle",
+  "common_share": "Paylaş",
+  "common_search": "Ara",
+  "common_settings": "Ayarlar",
+  "common_back": "Geri",
+  "common_next": "İleri",
+  "common_loading": "Yükleniyor...",
+  "common_error": "Bir hata oluştu",
+  "common_retry": "Tekrar dene",
+  
+  "main_title": "Liten Alanları",
+  "@main_title": {
+    "description": "Ana ekran başlığı"
+  },
+  
+  "main_create_new": "Yeni Liten Oluştur",
+  "main_empty_message": "Henüz Liten alanı yok.\nBaşlamak için yeni bir tane oluşturun.",
+  
+  "liten_space_title": "Liten Alanı",
+  "liten_space_description": "Ses, metin ve çizimleri birlikte yönetmek için bir alan",
+  
+  "audio_record": "Kaydet",
+  "audio_stop": "Durdur",
+  "audio_play": "Oynat",
+  "audio_pause": "Duraklat",
+  "audio_duration": "Süre: {duration}",
+  "@audio_duration": {
+    "description": "Ses süresi gösterimi",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "Metin Editörü",
+  "text_editor_placeholder": "İçeriğinizi buraya girin...",
+  "text_editor_word_count": "{count} karakter",
+  "@text_editor_word_count": {
+    "description": "Karakter sayısı gösterimi",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "Çizim ve Eskiz",
+  "drawing_pen": "Kalem",
+  "drawing_eraser": "Silgi",
+  "drawing_clear": "Hepsini Temizle",
+  "drawing_undo": "Geri Al",
+  "drawing_redo": "Yinele",
+  
+  "settings_title": "Ayarlar",
+  "settings_theme": "Tema",
+  "settings_language": "Dil",
+  "settings_audio_quality": "Ses Kalitesi",
+  "settings_storage": "Depolama",
+  "settings_about": "Hakkında",
+  
+  "theme_classic_blue": "Klasik Mavi",
+  "theme_dark_mode": "Karanlık Mod",
+  "theme_nature_green": "Doğa Yeşili",
+  "theme_sunset_orange": "Gün Batımı Turuncu",
+  "theme_monochrome_grey": "Monokrom Gri",
+  
+  "error_permission_denied": "İzin reddedildi",
+  "error_storage_full": "Depolama dolu",
+  "error_file_not_found": "Dosya bulunamadı",
+  "error_network_unavailable": "Ağ kullanılamıyor",
+  
+  "permission_microphone_title": "Mikrofon İzni",
+  "permission_microphone_message": "Ses kaydı için mikrofon izni gerekli",
+  "permission_storage_title": "Depolama İzni",
+  "permission_storage_message": "Dosyaları kaydetmek için depolama izni gerekli",
+  
+  "sync_title": "Senkronizasyon",
+  "sync_last_updated": "Son güncelleme: {date}",
+  "@sync_last_updated": {
+    "description": "Son senkronizasyon zamanı",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "Ücretsiz Sürüm",
+  "version_standard": "Standart Sürüm", 
+  "version_premium": "Premium Sürüm",
+  
+  "ad_banner_message": "Reklamları kaldırmak için Standart sürüme yükseltin"
+}

@@ -1,0 +1,115 @@
+{
+  "@@locale": "de",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "App-Name"
+  },
+  
+  "appDescription": "Sprach-Text-synchronisierte Notiz-App",
+  "@appDescription": {
+    "description": "App-Beschreibung"
+  },
+  
+  "common_ok": "OK",
+  "common_cancel": "Abbrechen",
+  "common_save": "Speichern",
+  "common_delete": "Löschen",
+  "common_edit": "Bearbeiten",
+  "common_share": "Teilen",
+  "common_search": "Suchen",
+  "common_settings": "Einstellungen",
+  "common_back": "Zurück",
+  "common_next": "Weiter",
+  "common_loading": "Wird geladen...",
+  "common_error": "Ein Fehler ist aufgetreten",
+  "common_retry": "Wiederholen",
+  
+  "main_title": "Liten-Bereiche",
+  "@main_title": {
+    "description": "Hauptbildschirm-Titel"
+  },
+  
+  "main_create_new": "Neuen Liten erstellen",
+  "main_empty_message": "Noch keine Liten-Bereiche vorhanden.\nErstellen Sie einen neuen, um zu beginnen.",
+  
+  "liten_space_title": "Liten-Bereich",
+  "liten_space_description": "Ein Bereich zur gemeinsamen Verwaltung von Sprache, Text und Zeichnungen",
+  
+  "audio_record": "Aufnehmen",
+  "audio_stop": "Stoppen",
+  "audio_play": "Abspielen",
+  "audio_pause": "Pausieren",
+  "audio_duration": "Dauer: {duration}",
+  "@audio_duration": {
+    "description": "Audio-Dauer-Anzeige",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "Texteditor",
+  "text_editor_placeholder": "Geben Sie hier Ihren Inhalt ein...",
+  "text_editor_word_count": "{count} Zeichen",
+  "@text_editor_word_count": {
+    "description": "Zeichenanzahl-Anzeige",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "Zeichnen & Skizzieren",
+  "drawing_pen": "Stift",
+  "drawing_eraser": "Radiergummi",
+  "drawing_clear": "Alles löschen",
+  "drawing_undo": "Rückgängig",
+  "drawing_redo": "Wiederholen",
+  
+  "settings_title": "Einstellungen",
+  "settings_theme": "Design",
+  "settings_language": "Sprache",
+  "settings_audio_quality": "Audioqualität",
+  "settings_storage": "Speicher",
+  "settings_about": "Über die App",
+  
+  "theme_classic_blue": "Klassisches Blau",
+  "theme_dark_mode": "Dunkler Modus",
+  "theme_nature_green": "Naturgrün",
+  "theme_sunset_orange": "Sonnenuntergang-Orange",
+  "theme_monochrome_grey": "Monochromes Grau",
+  
+  "error_permission_denied": "Berechtigung verweigert",
+  "error_storage_full": "Speicher ist voll",
+  "error_file_not_found": "Datei nicht gefunden",
+  "error_network_unavailable": "Netzwerk nicht verfügbar",
+  
+  "permission_microphone_title": "Mikrofon-Berechtigung",
+  "permission_microphone_message": "Mikrofon-Berechtigung ist für Sprachaufnahmen erforderlich",
+  "permission_storage_title": "Speicher-Berechtigung",
+  "permission_storage_message": "Speicher-Berechtigung ist zum Speichern von Dateien erforderlich",
+  
+  "sync_title": "Synchronisation",
+  "sync_last_updated": "Zuletzt aktualisiert: {date}",
+  "@sync_last_updated": {
+    "description": "Letzte Synchronisationszeit",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "Kostenlose Version",
+  "version_standard": "Standard-Version", 
+  "version_premium": "Premium-Version",
+  
+  "ad_banner_message": "Upgrade auf Standard-Version, um Werbung zu entfernen"
+}

@@ -1,0 +1,115 @@
+{
+  "@@locale": "sw",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "Jina la programu"
+  },
+  
+  "appDescription": "Programu ya vidokezo vya kusawazisha sauti-maandishi",
+  "@appDescription": {
+    "description": "Maelezo ya programu"
+  },
+  
+  "common_ok": "Sawa",
+  "common_cancel": "Ghairi",
+  "common_save": "Hifadhi",
+  "common_delete": "Futa",
+  "common_edit": "Hariri",
+  "common_share": "Shiriki",
+  "common_search": "Tafuta",
+  "common_settings": "Mipangilio",
+  "common_back": "Rudi",
+  "common_next": "Ifuatayo",
+  "common_loading": "Inapakia...",
+  "common_error": "Hitilafu imetokea",
+  "common_retry": "Jaribu tena",
+  
+  "main_title": "Nafasi za Liten",
+  "@main_title": {
+    "description": "Kichwa cha skrini kuu"
+  },
+  
+  "main_create_new": "Unda Liten Mpya",
+  "main_empty_message": "Hakuna nafasi za Liten bado.\nUnda mpya ili uanze.",
+  
+  "liten_space_title": "Nafasi ya Liten",
+  "liten_space_description": "Nafasi ya kusimamia sauti, maandishi na michoro pamoja",
+  
+  "audio_record": "Rekodi",
+  "audio_stop": "Simama",
+  "audio_play": "Cheza",
+  "audio_pause": "Sitisha",
+  "audio_duration": "Muda: {duration}",
+  "@audio_duration": {
+    "description": "Onyesho la muda wa sauti",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "Kihariri cha Maandishi",
+  "text_editor_placeholder": "Ingiza maudhui yako hapa...",
+  "text_editor_word_count": "Herufi {count}",
+  "@text_editor_word_count": {
+    "description": "Onyesho la idadi ya herufi",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "Uchoraji na Mikataba",
+  "drawing_pen": "Kalamu",
+  "drawing_eraser": "Kifutio",
+  "drawing_clear": "Futa Vyote",
+  "drawing_undo": "Batilisha",
+  "drawing_redo": "Rudia",
+  
+  "settings_title": "Mipangilio",
+  "settings_theme": "Mandhari",
+  "settings_language": "Lugha",
+  "settings_audio_quality": "Ubora wa Sauti",
+  "settings_storage": "Uhifadhi",
+  "settings_about": "Kuhusu",
+  
+  "theme_classic_blue": "Bluu ya Jadi",
+  "theme_dark_mode": "Hali ya Giza",
+  "theme_nature_green": "Kijani cha Asili",
+  "theme_sunset_orange": "Machungwa wa Jua",
+  "theme_monochrome_grey": "Kijivu cha Rangi Moja",
+  
+  "error_permission_denied": "Ruhusa imekataliwa",
+  "error_storage_full": "Uhifadhi umejaa",
+  "error_file_not_found": "Faili halikupatikana",
+  "error_network_unavailable": "Mtandao haupatikani",
+  
+  "permission_microphone_title": "Ruhusa ya Kipokea Sauti",
+  "permission_microphone_message": "Ruhusa ya kipokea sauti inahitajika kwa kurekodi sauti",
+  "permission_storage_title": "Ruhusa ya Uhifadhi",
+  "permission_storage_message": "Ruhusa ya uhifadhi inahitajika kwa kuhifadhi faili",
+  
+  "sync_title": "Usawazishaji",
+  "sync_last_updated": "Ilisasishwa mwisho: {date}",
+  "@sync_last_updated": {
+    "description": "Wakati wa usawazishaji wa mwisho",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "Toleo la Bure",
+  "version_standard": "Toleo la Kawaida", 
+  "version_premium": "Toleo la Premium",
+  
+  "ad_banner_message": "Boresha hadi toleo la Kawaida ili uondoe matangazo"
+}

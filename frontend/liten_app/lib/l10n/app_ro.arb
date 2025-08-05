@@ -1,0 +1,115 @@
+{
+  "@@locale": "ro",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "Numele aplicației"
+  },
+  
+  "appDescription": "Aplicație de notițe sincronizate voce-text",
+  "@appDescription": {
+    "description": "Descrierea aplicației"
+  },
+  
+  "common_ok": "OK",
+  "common_cancel": "Anulează",
+  "common_save": "Salvează",
+  "common_delete": "Șterge",
+  "common_edit": "Editează",
+  "common_share": "Partajează",
+  "common_search": "Caută",
+  "common_settings": "Setări",
+  "common_back": "Înapoi",
+  "common_next": "Următorul",
+  "common_loading": "Se încarcă...",
+  "common_error": "A apărut o eroare",
+  "common_retry": "Încearcă din nou",
+  
+  "main_title": "Spații Liten",
+  "@main_title": {
+    "description": "Titlul ecranului principal"
+  },
+  
+  "main_create_new": "Creează Liten nou",
+  "main_empty_message": "Nu există încă spații Liten.\nCreează unul nou pentru a începe.",
+  
+  "liten_space_title": "Spațiu Liten",
+  "liten_space_description": "Un spațiu pentru a gestiona vocea, textul și desenele împreună",
+  
+  "audio_record": "Înregistrează",
+  "audio_stop": "Oprește",
+  "audio_play": "Redă",
+  "audio_pause": "Pauză",
+  "audio_duration": "Durată: {duration}",
+  "@audio_duration": {
+    "description": "Afișarea duratei audio",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "Editor de text",
+  "text_editor_placeholder": "Introduceți conținutul aici...",
+  "text_editor_word_count": "{count} caractere",
+  "@text_editor_word_count": {
+    "description": "Afișarea numărului de caractere",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "Desen și schițe",
+  "drawing_pen": "Stilou",
+  "drawing_eraser": "Radieră",
+  "drawing_clear": "Șterge tot",
+  "drawing_undo": "Anulează",
+  "drawing_redo": "Refă",
+  
+  "settings_title": "Setări",
+  "settings_theme": "Temă",
+  "settings_language": "Limbă",
+  "settings_audio_quality": "Calitatea audio",
+  "settings_storage": "Stocare",
+  "settings_about": "Despre",
+  
+  "theme_classic_blue": "Albastru clasic",
+  "theme_dark_mode": "Mod întunecat",
+  "theme_nature_green": "Verde natură",
+  "theme_sunset_orange": "Portocaliu apus",
+  "theme_monochrome_grey": "Gri monocrom",
+  
+  "error_permission_denied": "Permisiune refuzată",
+  "error_storage_full": "Spațiu de stocare plin",
+  "error_file_not_found": "Fișier negăsit",
+  "error_network_unavailable": "Rețea indisponibilă",
+  
+  "permission_microphone_title": "Permisiune microfon",
+  "permission_microphone_message": "Permisiunea pentru microfon este necesară pentru înregistrarea vocii",
+  "permission_storage_title": "Permisiune stocare",
+  "permission_storage_message": "Permisiunea pentru stocare este necesară pentru salvarea fișierelor",
+  
+  "sync_title": "Sincronizare",
+  "sync_last_updated": "Ultima actualizare: {date}",
+  "@sync_last_updated": {
+    "description": "Ora ultimei sincronizări",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "Versiunea gratuită",
+  "version_standard": "Versiunea standard", 
+  "version_premium": "Versiunea premium",
+  
+  "ad_banner_message": "Actualizează la versiunea standard pentru a elimina reclamele"
+}

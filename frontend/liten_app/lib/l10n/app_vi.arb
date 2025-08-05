@@ -1,0 +1,115 @@
+{
+  "@@locale": "vi",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "Tên ứng dụng"
+  },
+  
+  "appDescription": "Ứng dụng ghi chú đồng bộ giọng nói-văn bản",
+  "@appDescription": {
+    "description": "Mô tả ứng dụng"
+  },
+  
+  "common_ok": "OK",
+  "common_cancel": "Hủy",
+  "common_save": "Lưu",
+  "common_delete": "Xóa",
+  "common_edit": "Chỉnh sửa",
+  "common_share": "Chia sẻ",
+  "common_search": "Tìm kiếm",
+  "common_settings": "Cài đặt",
+  "common_back": "Quay lại",
+  "common_next": "Tiếp theo",
+  "common_loading": "Đang tải...",
+  "common_error": "Đã xảy ra lỗi",
+  "common_retry": "Thử lại",
+  
+  "main_title": "Không gian Liten",
+  "@main_title": {
+    "description": "Tiêu đề màn hình chính"
+  },
+  
+  "main_create_new": "Tạo Liten mới",
+  "main_empty_message": "Chưa có không gian Liten nào.\nTạo mới để bắt đầu.",
+  
+  "liten_space_title": "Không gian Liten",
+  "liten_space_description": "Không gian để quản lý giọng nói, văn bản và hình vẽ cùng nhau",
+  
+  "audio_record": "Ghi âm",
+  "audio_stop": "Dừng",
+  "audio_play": "Phát",
+  "audio_pause": "Tạm dừng",
+  "audio_duration": "Thời lượng: {duration}",
+  "@audio_duration": {
+    "description": "Hiển thị thời lượng âm thanh",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "Trình soạn thảo văn bản",
+  "text_editor_placeholder": "Nhập nội dung của bạn ở đây...",
+  "text_editor_word_count": "{count} ký tự",
+  "@text_editor_word_count": {
+    "description": "Hiển thị số ký tự",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "Vẽ và phác thảo",
+  "drawing_pen": "Bút",
+  "drawing_eraser": "Tẩy",
+  "drawing_clear": "Xóa tất cả",
+  "drawing_undo": "Hoàn tác",
+  "drawing_redo": "Làm lại",
+  
+  "settings_title": "Cài đặt",
+  "settings_theme": "Chủ đề",
+  "settings_language": "Ngôn ngữ",
+  "settings_audio_quality": "Chất lượng âm thanh",
+  "settings_storage": "Lưu trữ",
+  "settings_about": "Giới thiệu",
+  
+  "theme_classic_blue": "Xanh cổ điển",
+  "theme_dark_mode": "Chế độ tối",
+  "theme_nature_green": "Xanh tự nhiên",
+  "theme_sunset_orange": "Cam hoàng hôn",
+  "theme_monochrome_grey": "Xám đơn sắc",
+  
+  "error_permission_denied": "Quyền bị từ chối",
+  "error_storage_full": "Bộ nhớ đầy",
+  "error_file_not_found": "Không tìm thấy tệp",
+  "error_network_unavailable": "Mạng không khả dụng",
+  
+  "permission_microphone_title": "Quyền truy cập micro",
+  "permission_microphone_message": "Cần quyền truy cập micro để ghi âm",
+  "permission_storage_title": "Quyền truy cập bộ nhớ",
+  "permission_storage_message": "Cần quyền truy cập bộ nhớ để lưu tệp",
+  
+  "sync_title": "Đồng bộ",
+  "sync_last_updated": "Cập nhật lần cuối: {date}",
+  "@sync_last_updated": {
+    "description": "Thời gian đồng bộ lần cuối",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "Phiên bản miễn phí",
+  "version_standard": "Phiên bản tiêu chuẩn", 
+  "version_premium": "Phiên bản cao cấp",
+  
+  "ad_banner_message": "Nâng cấp lên phiên bản tiêu chuẩn để loại bỏ quảng cáo"
+}

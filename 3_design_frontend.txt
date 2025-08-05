@@ -1,4 +1,4 @@
-리튼(liten) 크로스플랫폼 노트 앱과 웹 UI 설계서
+리튼(litten) 크로스플랫폼 노트 앱과 웹 UI 설계서
 
 ================================================================================
 
@@ -14,7 +14,7 @@
 
 1.2 리튼 앱 적용 방향
 기존 구조를 확장하여 리튼의 요구사항에 맞게 개선:
-- 31개 언어 지원을 위한 국제화 UI
+- 30개 언어 지원을 위한 국제화 UI
 - 무료/프리미엄 차별화 UI
 - 크로스플랫폼 최적화
 - 접근성 강화
@@ -26,7 +26,7 @@
 2.1 메인 앱 구조 (MainApp)
 MaterialApp
 ├── Theme Configuration (5가지 테마 시스템)
-├── Localization (31개 언어)
+├── Localization (30개 언어)
 ├── Navigation Routes
 └── MainTabScreen (메인 화면)
 
@@ -1814,29 +1814,75 @@ class SupportedLanguage {
   });
 }
 
-// 지원하는 31개 언어 목록
+// 지원하는 30개 언어 목록 (사용자 제공 순서)
 class LanguageData {
   static const List<SupportedLanguage> supportedLanguages = [
-    SupportedLanguage(code: 'ko', name: 'Korean', nativeName: '한국어', flag: '🇰🇷'),
+    // 1. 영어 (기본값)
     SupportedLanguage(code: 'en', name: 'English', nativeName: 'English', flag: '🇺🇸'),
-    SupportedLanguage(code: 'ja', name: 'Japanese', nativeName: '日本語', flag: '🇯🇵'),
-    SupportedLanguage(code: 'zh-CN', name: 'Chinese (Simplified)', nativeName: '简体中文', flag: '🇨🇳'),
-    SupportedLanguage(code: 'zh-TW', name: 'Chinese (Traditional)', nativeName: '繁體中文', flag: '🇹🇼'),
+    // 2. 중국어
+    SupportedLanguage(code: 'zh', name: 'Chinese', nativeName: '中文', flag: '🇨🇳'),
+    // 3. 힌디어
+    SupportedLanguage(code: 'hi', name: 'Hindi', nativeName: 'हिन्दी', flag: '🇮🇳'),
+    // 4. 스페인어
     SupportedLanguage(code: 'es', name: 'Spanish', nativeName: 'Español', flag: '🇪🇸'),
+    // 5. 프랑스어
     SupportedLanguage(code: 'fr', name: 'French', nativeName: 'Français', flag: '🇫🇷'),
-    SupportedLanguage(code: 'de', name: 'German', nativeName: 'Deutsch', flag: '🇩🇪'),
-    SupportedLanguage(code: 'pt', name: 'Portuguese', nativeName: 'Português', flag: '🇵🇹'),
-    SupportedLanguage(code: 'ru', name: 'Russian', nativeName: 'Русский', flag: '🇷🇺'),
-    SupportedLanguage(code: 'it', name: 'Italian', nativeName: 'Italiano', flag: '🇮🇹'),
-    SupportedLanguage(code: 'th', name: 'Thai', nativeName: 'ไทย', flag: '🇹🇭'),
-    SupportedLanguage(code: 'vi', name: 'Vietnamese', nativeName: 'Tiếng Việt', flag: '🇻🇳'),
+    // 6. 아랍어
     SupportedLanguage(code: 'ar', name: 'Arabic', nativeName: 'العربية', flag: '🇸🇦', isRTL: true),
+    // 7. 벵골어
+    SupportedLanguage(code: 'bn', name: 'Bengali', nativeName: 'বাংলা', flag: '🇧🇩'),
+    // 8. 러시아어
+    SupportedLanguage(code: 'ru', name: 'Russian', nativeName: 'Русский', flag: '🇷🇺'),
+    // 9. 포르투갈어
+    SupportedLanguage(code: 'pt', name: 'Portuguese', nativeName: 'Português', flag: '🇵🇹'),
+    // 10. 우르두어
+    SupportedLanguage(code: 'ur', name: 'Urdu', nativeName: 'اردو', flag: '🇵🇰', isRTL: true),
+    // 11. 인도네시아어
+    SupportedLanguage(code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', flag: '🇮🇩'),
+    // 12. 독일어
+    SupportedLanguage(code: 'de', name: 'German', nativeName: 'Deutsch', flag: '🇩🇪'),
+    // 13. 일본어
+    SupportedLanguage(code: 'ja', name: 'Japanese', nativeName: '日本語', flag: '🇯🇵'),
+    // 14. 스와힐리어
+    SupportedLanguage(code: 'sw', name: 'Swahili', nativeName: 'Kiswahili', flag: '🇰🇪'),
+    // 15. 마라티어
+    SupportedLanguage(code: 'mr', name: 'Marathi', nativeName: 'मराठी', flag: '🇮🇳'),
+    // 16. 텔루구어
+    SupportedLanguage(code: 'te', name: 'Telugu', nativeName: 'తెలుగు', flag: '🇮🇳'),
+    // 17. 터키어
+    SupportedLanguage(code: 'tr', name: 'Turkish', nativeName: 'Türkçe', flag: '🇹🇷'),
+    // 18. 타밀어
+    SupportedLanguage(code: 'ta', name: 'Tamil', nativeName: 'தமிழ்', flag: '🇮🇳'),
+    // 19. 페르시아어
+    SupportedLanguage(code: 'fa', name: 'Farsi', nativeName: 'فارسی', flag: '🇮🇷', isRTL: true),
+    // 20. 한국어
+    SupportedLanguage(code: 'ko', name: 'Korean', nativeName: '한국어', flag: '🇰🇷'),
+    // 21. 우크라이나어
+    SupportedLanguage(code: 'uk', name: 'Ukrainian', nativeName: 'Українська', flag: '🇺🇦'),
+    // 22. 이탈리아어
+    SupportedLanguage(code: 'it', name: 'Italian', nativeName: 'Italiano', flag: '🇮🇹'),
+    // 23. 타갈로그어 (Filipino)
+    SupportedLanguage(code: 'tl', name: 'Filipino', nativeName: 'Filipino', flag: '🇵🇭'),
+    // 24. 폴란드어
+    SupportedLanguage(code: 'pl', name: 'Polish', nativeName: 'Polski', flag: '🇵🇱'),
+    // 25. 파슈토어
+    SupportedLanguage(code: 'ps', name: 'Pashto', nativeName: 'پښتو', flag: '🇦🇫', isRTL: true),
+    // 26. 말레이어
+    SupportedLanguage(code: 'ms', name: 'Malay', nativeName: 'Bahasa Melayu', flag: '🇲🇾'),
+    // 27. 로마니아어
+    SupportedLanguage(code: 'ro', name: 'Romanian', nativeName: 'Română', flag: '🇷🇴'),
+    // 28. 네덜란드어
+    SupportedLanguage(code: 'nl', name: 'Dutch', nativeName: 'Nederlands', flag: '🇳🇱'),
+    // 29. 하우사어
+    SupportedLanguage(code: 'ha', name: 'Hausa', nativeName: 'Hausa', flag: '🇳🇬'),
+    // 30. 타이어 (Thai)
+    SupportedLanguage(code: 'th', name: 'Thai', nativeName: 'ไทย', flag: '🇹🇭'),
   ];
 
   static SupportedLanguage getLanguageByCode(String code) {
     return supportedLanguages.firstWhere(
       (lang) => lang.code == code,
-      orElse: () => supportedLanguages.first, // 기본값: 한국어
+      orElse: () => supportedLanguages.first, // 기본값: 영어
     );
   }
 
@@ -2164,7 +2210,7 @@ class LanguageSettingsCard extends StatelessWidget {
                 color: Theme.of(context).primaryColor,
               ),
               title: Text('언어 변경'),
-              subtitle: Text('31개 언어 중 선택'),
+              subtitle: Text('30개 언어 중 선택'),
               trailing: Icon(Icons.arrow_forward_ios, size: 16),
               onTap: () => _showLanguageSelection(context),
             ),
@@ -5845,7 +5891,7 @@ class TopStatusBar extends StatelessWidget implements PreferredSizeWidget {
       context: context,
       builder: (context) => FileContextMenu(
         fileName: currentFileName ?? '',
-        litenName: currentLitenName ?? '',
+        littenName: currentLitenName ?? '',
         fileType: currentTabType,
       ),
     );
@@ -5861,13 +5907,13 @@ class TopStatusBar extends StatelessWidget implements PreferredSizeWidget {
 ```dart
 class FileContextMenu extends StatelessWidget {
   final String fileName;
-  final String litenName;
+  final String littenName;
   final String fileType;
   
   const FileContextMenu({
     Key? key,
     required this.fileName,
-    required this.litenName,
+    required this.littenName,
     required this.fileType,
   }) : super(key: key);
 
@@ -5894,7 +5940,7 @@ class FileContextMenu extends StatelessWidget {
                 ),
                 SizedBox(height: 4),
                 Text(
-                  '리튼: $litenName',
+                  '리튼: $littenName',
                   style: TextStyle(
                     fontSize: 14,
                     color: Colors.grey.shade600,
@@ -6010,8 +6056,8 @@ class TopStatusBarProvider extends ChangeNotifier {
   bool get isEditing => _isEditing;
   
   // 리튼 변경
-  void setCurrentLiten(String? litenName) {
-    _currentLitenName = litenName;
+  void setCurrentLiten(String? littenName) {
+    _currentLitenName = littenName;
     notifyListeners();
   }
   
@@ -6121,12 +6167,12 @@ class _MainScreenState extends State<MainScreen> {
   }
   
   void _updateStatus({
-    String? litenName,
+    String? littenName,
     String? fileName,
     bool? isRecording,
     bool? isEditing,
   }) {
-    if (litenName != null) _statusBarProvider.setCurrentLiten(litenName);
+    if (littenName != null) _statusBarProvider.setCurrentLiten(littenName);
     if (fileName != null) _statusBarProvider.setCurrentFile(fileName);
     if (isRecording != null) _statusBarProvider.setRecordingState(isRecording);
     if (isEditing != null) _statusBarProvider.setEditingState(isEditing);
@@ -6143,8 +6189,8 @@ class _MainScreenState extends State<MainScreen> {
       context: context,
       builder: (context) => LitenSelectorDialog(
         currentLiten: _statusBarProvider.currentLitenName,
-        onLitenSelected: (litenName) {
-          _statusBarProvider.setCurrentLiten(litenName);
+        onLitenSelected: (littenName) {
+          _statusBarProvider.setCurrentLiten(littenName);
         },
       ),
     );
@@ -6169,14 +6215,14 @@ class _MainScreenState extends State<MainScreen> {
 3. ✅ **5가지 테마 시스템** - 완전한 테마 선택 및 관리 UI
 4. ✅ **리치 텍스트 에디터 도구바** - 마크다운 지원 도구바
 5. ✅ **음성 북마크 기능 UI** - 타임스탬프 북마크 시스템
-6. ✅ **31개 언어 국제화 UI** - 언어 선택 및 전환 인터페이스
+6. ✅ **30개 언어 국제화 UI** - 언어 선택 및 전환 인터페이스
 7. ✅ **파일 변환 프로세스 UI** - 포맷 변환 진행 상황 표시
 8. ✅ **완전한 설정 화면** - 모듈식 설정 카드 구조
 9. ✅ **필기 도구 상세 UI** - 9가지 전문 필기 도구
 10. ✅ **검색 및 온보딩 UI** - 통합 검색 시스템 및 5단계 온보딩
 
 ### 비기능적 요구사항 (4가지)
-11. ✅ **시스템 언어 자동 감지** - 설치 시 31개 언어 자동 매핑
+11. ✅ **시스템 언어 자동 감지** - 설치 시 30개 언어 자동 매핑
 12. ✅ **국가별 테마 자동 선택** - 지역별 선호 테마 자동 설정 
 13. ✅ **상단 상태 표시** - TopStatusBar로 현재 상태 실시간 표시
 14. ✅ **UUID 생성 및 서버 등록** - 앱 고유 아이디 생성 시스템
@@ -8673,15 +8719,15 @@ class FileConversionService extends ChangeNotifier {
   /// 파일을 리튼 디렉토리로 변환 및 이동
   Future<List<String>?> convertAndMoveToLiten(
     String sourceFilePath,
-    String litenDirectoryId,
+    String littenDirectoryId,
     {String? customFileName}
   ) async {
     try {
       // 리튼 디렉토리 경로 생성
       final directory = await getApplicationDocumentsDirectory();
-      final litenDir = Directory('${directory.path}/litens/$litenDirectoryId');
-      if (!await litenDir.exists()) {
-        await litenDir.create(recursive: true);
+      final littenDir = Directory('${directory.path}/littens/$littenDirectoryId');
+      if (!await littenDir.exists()) {
+        await littenDir.create(recursive: true);
       }
       
       final extension = path.extension(sourceFilePath).toLowerCase();
@@ -8690,19 +8736,19 @@ class FileConversionService extends ChangeNotifier {
       if (extension == '.pdf') {
         return await convertPdfToJpeg(
           sourceFilePath,
-          litenDir.path,
+          littenDir.path,
           customFileName: customFileName,
         );
       } else if (supportedInputFormats.contains(extension.substring(1))) {
         return await convertDocumentToImage(
           sourceFilePath,
-          litenDir.path,
+          littenDir.path,
           targetFormat: 'jpeg',
         );
       } else if (['.jpg', '.jpeg', '.png'].contains(extension)) {
         // 이미지 파일은 직접 복사
         final fileName = customFileName ?? path.basename(sourceFilePath);
-        final targetPath = path.join(litenDir.path, fileName);
+        final targetPath = path.join(littenDir.path, fileName);
         await File(sourceFilePath).copy(targetPath);
         return [targetPath];
       } else {
@@ -8944,12 +8990,16 @@ class ConversionHistoryItem {
 
 ================================================================================
 
-리튼(liten) 크로스플랫폼 노트 앱의 **Flutter 프론트엔드 설계**가 완전히 완성되었습니다. 
+리튼(litten) 크로스플랫폼 노트 앱의 **Flutter 프론트엔드 설계**가 완전히 완성되었습니다. 
 
 - **기존 기능**: 음성/텍스트/필기 통합 노트 시스템
-- **추가된 기능**: 광고 시스템, 사용량 제한, 테마 시스템, 국제화, 동기화 등
+- **추가된 기능**: 광고 시스템, 3단계 사용량 제한 시스템, 테마 시스템, 국제화, 동기화 등
+- **3단계 구독 시스템**:
+  * 무료(Free): 리튼 최대 5개, 듣기 파일 2개, 쓰기 텍스트 1개, 필기 1개 제한
+  * 스탠다드(Standard): 파일 수 제한 없음, 광고 제거
+  * 프리미엄(Premium): 로그인 및 파일 서버 보관, 웹에서 편집 가능
 - **서비스 레이어**: AudioService, TextEditorService, DrawingService, FileConversionService 완성
 - **사용자 경험**: 완전한 온보딩부터 고급 편집 도구까지
-- **비즈니스 모델**: 무료/프리미엄 차별화된 기능 제공
+- **비즈니스 모델**: 3단계 구독 모델로 사용자별 맞춤 서비스 제공
 
 모든 요구사항이 체계적으로 반영되어 실제 개발 단계로 진행할 수 있는 수준의 완성도 높은 설계서입니다.

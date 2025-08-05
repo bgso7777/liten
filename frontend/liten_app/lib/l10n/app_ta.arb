@@ -1,0 +1,115 @@
+{
+  "@@locale": "ta",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "பயன்பாட்டின் பெயர்"
+  },
+  
+  "appDescription": "குரல்-உரை ஒத்திசைவு குறிப்பு பயன்பாடு",
+  "@appDescription": {
+    "description": "பயன்பாட்டின் விளக்கம்"
+  },
+  
+  "common_ok": "சரி",
+  "common_cancel": "ரத்து செய்",
+  "common_save": "சேமி",
+  "common_delete": "நீக்கு",
+  "common_edit": "திருத்து",
+  "common_share": "பகிர்",
+  "common_search": "தேடு",
+  "common_settings": "அமைப்புகள்",
+  "common_back": "பின்",
+  "common_next": "அடுத்து",
+  "common_loading": "ஏற்றுகிறது...",
+  "common_error": "பிழை ஏற்பட்டது",
+  "common_retry": "மீண்டும் முயற்சி",
+  
+  "main_title": "Liten இடங்கள்",
+  "@main_title": {
+    "description": "முக்கிய திரையின் தலைப்பு"
+  },
+  
+  "main_create_new": "புதிய Liten உருவாக்கு",
+  "main_empty_message": "இன்னும் Liten இடங்கள் இல்லை.\nதொடங்க புதியதை உருவாக்கவும்.",
+  
+  "liten_space_title": "Liten இடம்",
+  "liten_space_description": "குரல், உரை மற்றும் வரைபடங்களை ஒன்றாக நிர்வகிக்கும் இடம்",
+  
+  "audio_record": "பதிவு செய்",
+  "audio_stop": "நிறுத்து",
+  "audio_play": "இயக்கு",
+  "audio_pause": "இடைநிறுத்து",
+  "audio_duration": "கால அளவு: {duration}",
+  "@audio_duration": {
+    "description": "ஆடியோ கால அளவு காட்சி",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "உரை எடிட்டர்",
+  "text_editor_placeholder": "உங்கள் உள்ளடக்கத்தை இங்கே உள்ளிடவும்...",
+  "text_editor_word_count": "{count} எழுத்துகள்",
+  "@text_editor_word_count": {
+    "description": "எழுத்து எண்ணிக்கை காட்சி",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "வரைதல் மற்றும் ஓவியம்",
+  "drawing_pen": "பேனா",
+  "drawing_eraser": "அழிப்பான்",
+  "drawing_clear": "அனைத்தையும் அழி",
+  "drawing_undo": "செயல்தவிர்",
+  "drawing_redo": "மீண்டும் செய்",
+  
+  "settings_title": "அமைப்புகள்",
+  "settings_theme": "தீம்",
+  "settings_language": "மொழி",
+  "settings_audio_quality": "ஆடியோ தரம்",
+  "settings_storage": "சேமிப்பு",
+  "settings_about": "பற்றி",
+  
+  "theme_classic_blue": "கிளாசிக் நீலம்",
+  "theme_dark_mode": "இரவு பயன்முறை",
+  "theme_nature_green": "இயற்கை பச்சை",
+  "theme_sunset_orange": "மாலை நிற ஆரஞ்சு",
+  "theme_monochrome_grey": "ஒற்றை நிற சாம்பல்",
+  
+  "error_permission_denied": "அனுமதி மறுக்கப்பட்டது",
+  "error_storage_full": "சேமிப்பு நிரம்பியது",
+  "error_file_not_found": "கோப்பு கிடைக்கவில்லை",
+  "error_network_unavailable": "நெட்வொர்க் கிடைக்கவில்லை",
+  
+  "permission_microphone_title": "மைக்ரோஃபோன் அனுமதி",
+  "permission_microphone_message": "குரல் பதிவுக்கு மைக்ரோஃபோன் அனுமதி தேவை",
+  "permission_storage_title": "சேமிப்பு அனுமதி",
+  "permission_storage_message": "கோப்புகளை சேமிக்க சேமிப்பு அனுமதி தேவை",
+  
+  "sync_title": "ஒத்திசைவு",
+  "sync_last_updated": "கடைசி புதுப்பிப்பு: {date}",
+  "@sync_last_updated": {
+    "description": "கடைசி ஒத்திசைவு நேரம்",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "இலவச பதிப்பு",
+  "version_standard": "நிலையான பதிப்பு", 
+  "version_premium": "பிரீமியம் பதிப்பு",
+  
+  "ad_banner_message": "விளம்பரங்களை அகற்ற நிலையான பதிப்பிற்கு மேம்படுத்தவும்"
+}

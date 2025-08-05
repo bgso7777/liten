@@ -1,0 +1,115 @@
+{
+  "@@locale": "es",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "Nombre de la aplicación"
+  },
+  
+  "appDescription": "Aplicación de notas sincronizada de voz-texto",
+  "@appDescription": {
+    "description": "Descripción de la aplicación"
+  },
+  
+  "common_ok": "Aceptar",
+  "common_cancel": "Cancelar",
+  "common_save": "Guardar",
+  "common_delete": "Eliminar",
+  "common_edit": "Editar",
+  "common_share": "Compartir",
+  "common_search": "Buscar",
+  "common_settings": "Configuración",
+  "common_back": "Atrás",
+  "common_next": "Siguiente",
+  "common_loading": "Cargando...",
+  "common_error": "Ha ocurrido un error",
+  "common_retry": "Reintentar",
+  
+  "main_title": "Espacios Liten",
+  "@main_title": {
+    "description": "Título de la pantalla principal"
+  },
+  
+  "main_create_new": "Crear nuevo Liten",
+  "main_empty_message": "Aún no hay espacios Liten.\nCrea uno nuevo para comenzar.",
+  
+  "liten_space_title": "Espacio Liten",
+  "liten_space_description": "Un espacio para gestionar voz, texto y dibujos juntos",
+  
+  "audio_record": "Grabar",
+  "audio_stop": "Detener",
+  "audio_play": "Reproducir",
+  "audio_pause": "Pausar",
+  "audio_duration": "Duración: {duration}",
+  "@audio_duration": {
+    "description": "Mostrar duración del audio",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "Editor de texto",
+  "text_editor_placeholder": "Ingrese su contenido aquí...",
+  "text_editor_word_count": "{count} caracteres",
+  "@text_editor_word_count": {
+    "description": "Mostrar conteo de caracteres",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "Dibujo y bocetos",
+  "drawing_pen": "Bolígrafo",
+  "drawing_eraser": "Borrador",
+  "drawing_clear": "Borrar todo",
+  "drawing_undo": "Deshacer",
+  "drawing_redo": "Rehacer",
+  
+  "settings_title": "Configuración",
+  "settings_theme": "Tema",
+  "settings_language": "Idioma",
+  "settings_audio_quality": "Calidad de audio",
+  "settings_storage": "Almacenamiento",
+  "settings_about": "Acerca de",
+  
+  "theme_classic_blue": "Azul clásico",
+  "theme_dark_mode": "Modo oscuro",
+  "theme_nature_green": "Verde natural",
+  "theme_sunset_orange": "Naranja atardecer",
+  "theme_monochrome_grey": "Gris monocromo",
+  
+  "error_permission_denied": "Permiso denegado",
+  "error_storage_full": "Almacenamiento lleno",
+  "error_file_not_found": "Archivo no encontrado",
+  "error_network_unavailable": "Red no disponible",
+  
+  "permission_microphone_title": "Permiso de micrófono",
+  "permission_microphone_message": "Se requiere permiso de micrófono para grabar voz",
+  "permission_storage_title": "Permiso de almacenamiento",
+  "permission_storage_message": "Se requiere permiso de almacenamiento para guardar archivos",
+  
+  "sync_title": "Sincronización",
+  "sync_last_updated": "Última actualización: {date}",
+  "@sync_last_updated": {
+    "description": "Hora de última sincronización",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "Versión gratuita",
+  "version_standard": "Versión estándar", 
+  "version_premium": "Versión premium",
+  
+  "ad_banner_message": "Actualiza a la versión estándar para eliminar anuncios"
+}

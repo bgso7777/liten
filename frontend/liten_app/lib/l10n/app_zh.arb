@@ -1,0 +1,115 @@
+{
+  "@@locale": "zh",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "应用名称"
+  },
+  
+  "appDescription": "语音文本同步笔记应用",
+  "@appDescription": {
+    "description": "应用描述"
+  },
+  
+  "common_ok": "确定",
+  "common_cancel": "取消",
+  "common_save": "保存",
+  "common_delete": "删除",
+  "common_edit": "编辑",
+  "common_share": "分享",
+  "common_search": "搜索",
+  "common_settings": "设置",
+  "common_back": "返回",
+  "common_next": "下一步",
+  "common_loading": "加载中...",
+  "common_error": "发生错误",
+  "common_retry": "重试",
+  
+  "main_title": "Liten 空间",
+  "@main_title": {
+    "description": "主屏幕标题"
+  },
+  
+  "main_create_new": "创建新 Liten",
+  "main_empty_message": "还没有 Liten 空间。\n创建一个新空间开始吧。",
+  
+  "liten_space_title": "Liten 空间",
+  "liten_space_description": "统一管理语音、文本和绘图的空间",
+  
+  "audio_record": "录音",
+  "audio_stop": "停止",
+  "audio_play": "播放",
+  "audio_pause": "暂停",
+  "audio_duration": "时长：{duration}",
+  "@audio_duration": {
+    "description": "音频时长显示",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "文本编辑器",
+  "text_editor_placeholder": "在此输入内容...",
+  "text_editor_word_count": "{count} 字符",
+  "@text_editor_word_count": {
+    "description": "字符数显示",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "绘图与素描",
+  "drawing_pen": "画笔",
+  "drawing_eraser": "橡皮擦",
+  "drawing_clear": "全部清除",
+  "drawing_undo": "撤销",
+  "drawing_redo": "重做",
+  
+  "settings_title": "设置",
+  "settings_theme": "主题",
+  "settings_language": "语言",
+  "settings_audio_quality": "音频质量",
+  "settings_storage": "存储",
+  "settings_about": "关于",
+  
+  "theme_classic_blue": "经典蓝",
+  "theme_dark_mode": "深色模式",
+  "theme_nature_green": "自然绿",
+  "theme_sunset_orange": "夕阳橙",
+  "theme_monochrome_grey": "单色灰",
+  
+  "error_permission_denied": "权限被拒绝",
+  "error_storage_full": "存储空间已满",
+  "error_file_not_found": "文件未找到",
+  "error_network_unavailable": "网络不可用",
+  
+  "permission_microphone_title": "麦克风权限",
+  "permission_microphone_message": "录音功能需要麦克风权限",
+  "permission_storage_title": "存储权限",
+  "permission_storage_message": "保存文件需要存储权限",
+  
+  "sync_title": "同步",
+  "sync_last_updated": "最后更新：{date}",
+  "@sync_last_updated": {
+    "description": "最后同步时间",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "免费版",
+  "version_standard": "标准版", 
+  "version_premium": "高级版",
+  
+  "ad_banner_message": "升级到标准版以移除广告"
+}

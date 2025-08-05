@@ -1,0 +1,115 @@
+{
+  "@@locale": "ar",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "اسم التطبيق"
+  },
+  
+  "appDescription": "تطبيق الملاحظات المتزامن صوت-نص",
+  "@appDescription": {
+    "description": "وصف التطبيق"
+  },
+  
+  "common_ok": "موافق",
+  "common_cancel": "إلغاء",
+  "common_save": "حفظ",
+  "common_delete": "حذف",
+  "common_edit": "تحرير",
+  "common_share": "مشاركة",
+  "common_search": "بحث",
+  "common_settings": "الإعدادات",
+  "common_back": "رجوع",
+  "common_next": "التالي",
+  "common_loading": "جاري التحميل...",
+  "common_error": "حدث خطأ",
+  "common_retry": "إعادة المحاولة",
+  
+  "main_title": "مساحات Liten",
+  "@main_title": {
+    "description": "عنوان الشاشة الرئيسية"
+  },
+  
+  "main_create_new": "إنشاء Liten جديد",
+  "main_empty_message": "لا توجد مساحات Liten بعد.\nأنشئ مساحة جديدة للبدء.",
+  
+  "liten_space_title": "مساحة Liten",
+  "liten_space_description": "مساحة لإدارة الصوت والنص والرسومات معاً",
+  
+  "audio_record": "تسجيل",
+  "audio_stop": "إيقاف",
+  "audio_play": "تشغيل",
+  "audio_pause": "إيقاف مؤقت",
+  "audio_duration": "المدة: {duration}",
+  "@audio_duration": {
+    "description": "عرض مدة الصوت",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "محرر النصوص",
+  "text_editor_placeholder": "أدخل المحتوى هنا...",
+  "text_editor_word_count": "{count} حرف",
+  "@text_editor_word_count": {
+    "description": "عرض عدد الأحرف",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "الرسم والتخطيط",
+  "drawing_pen": "قلم",
+  "drawing_eraser": "ممحاة",
+  "drawing_clear": "مسح الكل",
+  "drawing_undo": "تراجع",
+  "drawing_redo": "إعادة",
+  
+  "settings_title": "الإعدادات",
+  "settings_theme": "المظهر",
+  "settings_language": "اللغة",
+  "settings_audio_quality": "جودة الصوت",
+  "settings_storage": "التخزين",
+  "settings_about": "حول التطبيق",
+  
+  "theme_classic_blue": "الأزرق الكلاسيكي",
+  "theme_dark_mode": "الوضع المظلم",
+  "theme_nature_green": "الأخضر الطبيعي",
+  "theme_sunset_orange": "البرتقالي الغروبي",
+  "theme_monochrome_grey": "الرمادي الأحادي",
+  
+  "error_permission_denied": "تم رفض الإذن",
+  "error_storage_full": "مساحة التخزين ممتلئة",
+  "error_file_not_found": "الملف غير موجود",
+  "error_network_unavailable": "الشبكة غير متاحة",
+  
+  "permission_microphone_title": "إذن الميكروفون",
+  "permission_microphone_message": "مطلوب إذن الميكروفون لتسجيل الصوت",
+  "permission_storage_title": "إذن التخزين",
+  "permission_storage_message": "مطلوب إذن التخزين لحفظ الملفات",
+  
+  "sync_title": "المزامنة",
+  "sync_last_updated": "آخر تحديث: {date}",
+  "@sync_last_updated": {
+    "description": "وقت آخر مزامنة",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "النسخة المجانية",
+  "version_standard": "النسخة القياسية", 
+  "version_premium": "النسخة المتميزة",
+  
+  "ad_banner_message": "قم بالترقية إلى النسخة القياسية لإزالة الإعلانات"
+}

@@ -1,0 +1,115 @@
+{
+  "@@locale": "fa",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "نام اپلیکیشن"
+  },
+  
+  "appDescription": "اپلیکیشن یادداشت همگام‌سازی شده صدا-متن",
+  "@appDescription": {
+    "description": "توضیح اپلیکیشن"
+  },
+  
+  "common_ok": "تأیید",
+  "common_cancel": "لغو",
+  "common_save": "ذخیره",
+  "common_delete": "حذف",
+  "common_edit": "ویرایش",
+  "common_share": "اشتراک",
+  "common_search": "جستجو",
+  "common_settings": "تنظیمات",
+  "common_back": "بازگشت",
+  "common_next": "بعدی",
+  "common_loading": "در حال بارگذاری...",
+  "common_error": "خطایی رخ داده است",
+  "common_retry": "تلاش مجدد",
+  
+  "main_title": "فضاهای Liten",
+  "@main_title": {
+    "description": "عنوان صفحه اصلی"
+  },
+  
+  "main_create_new": "ایجاد Liten جدید",
+  "main_empty_message": "هنوز فضای Liten وجود ندارد.\nیکی جدید ایجاد کنید تا شروع کنید.",
+  
+  "liten_space_title": "فضای Liten",
+  "liten_space_description": "فضایی برای مدیریت صدا، متن و نقاشی‌ها با هم",
+  
+  "audio_record": "ضبط",
+  "audio_stop": "توقف",
+  "audio_play": "پخش",
+  "audio_pause": "مکث",
+  "audio_duration": "مدت زمان: {duration}",
+  "@audio_duration": {
+    "description": "نمایش مدت زمان صوتی",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "ویرایشگر متن",
+  "text_editor_placeholder": "محتوای خود را اینجا وارد کنید...",
+  "text_editor_word_count": "{count} کاراکتر",
+  "@text_editor_word_count": {
+    "description": "نمایش تعداد کاراکتر",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "نقاشی و طراحی",
+  "drawing_pen": "قلم",
+  "drawing_eraser": "پاک‌کن",
+  "drawing_clear": "پاک کردن همه",
+  "drawing_undo": "واگرد",
+  "drawing_redo": "انجام مجدد",
+  
+  "settings_title": "تنظیمات",
+  "settings_theme": "پوسته",
+  "settings_language": "زبان",
+  "settings_audio_quality": "کیفیت صدا",
+  "settings_storage": "ذخیره‌سازی",
+  "settings_about": "درباره",
+  
+  "theme_classic_blue": "آبی کلاسیک",
+  "theme_dark_mode": "حالت تاریک",
+  "theme_nature_green": "سبز طبیعی",
+  "theme_sunset_orange": "نارنجی غروب",
+  "theme_monochrome_grey": "خاکستری تک‌رنگ",
+  
+  "error_permission_denied": "مجوز رد شد",
+  "error_storage_full": "فضای ذخیره‌سازی پر است",
+  "error_file_not_found": "فایل یافت نشد",
+  "error_network_unavailable": "شبکه در دسترس نیست",
+  
+  "permission_microphone_title": "مجوز میکروفون",
+  "permission_microphone_message": "برای ضبط صدا مجوز میکروفون لازم است",
+  "permission_storage_title": "مجوز ذخیره‌سازی",
+  "permission_storage_message": "برای ذخیره فایل‌ها مجوز ذخیره‌سازی لازم است",
+  
+  "sync_title": "همگام‌سازی",
+  "sync_last_updated": "آخرین به‌روزرسانی: {date}",
+  "@sync_last_updated": {
+    "description": "زمان آخرین همگام‌سازی",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "نسخه رایگان",
+  "version_standard": "نسخه استاندارد", 
+  "version_premium": "نسخه ویژه",
+  
+  "ad_banner_message": "برای حذف تبلیغات به نسخه استاندارد ارتقا دهید"
+}

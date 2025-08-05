@@ -34,8 +34,44 @@ class _LanguageSelectionScreenState extends State<LanguageSelectionScreen> {
       appBar: _buildAppBar(theme, l10n),
       body: Column(
         children: [
+          _buildLanguageStatus(theme),
           _buildSearchBar(theme, l10n),
           Expanded(child: _buildLanguageList(theme, l10n)),
+        ],
+      ),
+    );
+  }
+
+  /// 언어 지원 상태 표시
+  Widget _buildLanguageStatus(ThemeData theme) {
+    return Container(
+      width: double.infinity,
+      margin: const EdgeInsets.all(16),
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: theme.colorScheme.primaryContainer,
+        borderRadius: BorderRadius.circular(8),
+        border: Border.all(
+          color: theme.colorScheme.primary.withOpacity(0.3),
+        ),
+      ),
+      child: Row(
+        children: [
+          Icon(
+            Icons.info_outline,
+            color: theme.colorScheme.onPrimaryContainer,
+            size: 20,
+          ),
+          const SizedBox(width: 8),
+          Expanded(
+            child: Text(
+              LanguageConfig.getLanguageSupportStatus(),
+              style: theme.textTheme.bodyMedium?.copyWith(
+                color: theme.colorScheme.onPrimaryContainer,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+          ),
         ],
       ),
     );

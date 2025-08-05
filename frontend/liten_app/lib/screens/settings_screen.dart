@@ -5,6 +5,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import '../providers/app_provider.dart';
 import '../config/app_config.dart';
 import '../config/theme_config.dart';
+import '../config/language_config.dart';
 
 /// 설정 화면
 class SettingsScreen extends StatefulWidget {
@@ -214,10 +215,13 @@ class _SettingsScreenState extends State<SettingsScreen> {
 
   /// 언어 선택 다이얼로그
   void _showLanguageDialog(AppProvider appProvider) {
-    final languages = [
-      {'locale': const Locale('ko'), 'name': '한국어', 'flag': '🇰🇷'},
-      {'locale': const Locale('en'), 'name': 'English', 'flag': '🇺🇸'},
-    ];
+    final languages = LanguageConfig.currentlySupportedLanguages
+        .map((lang) => {
+              'locale': Locale(lang.code),
+              'name': lang.nativeName,
+              'flag': lang.flag,
+            })
+        .toList();
 
     showDialog(
       context: context,
@@ -334,13 +338,11 @@ class _SettingsScreenState extends State<SettingsScreen> {
 
   /// 언어 이름 가져오기
   String _getLanguageName(Locale locale) {
-    switch (locale.languageCode) {
-      case 'ko':
-        return '한국어';
-      case 'en':
-        return 'English';
-      default:
-        return locale.languageCode.toUpperCase();
+    try {
+      final language = LanguageConfig.getLanguageByCode(locale.languageCode);
+      return '${language.flag} ${language.nativeName}';
+    } catch (e) {
+      return locale.languageCode.toUpperCase();
     }
   }
 }

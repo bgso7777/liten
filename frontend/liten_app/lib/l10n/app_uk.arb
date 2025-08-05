@@ -1,0 +1,115 @@
+{
+  "@@locale": "uk",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "Назва програми"
+  },
+  
+  "appDescription": "Програма для заміток з синхронізацією голос-текст",
+  "@appDescription": {
+    "description": "Опис програми"
+  },
+  
+  "common_ok": "ОК",
+  "common_cancel": "Скасувати",
+  "common_save": "Зберегти",
+  "common_delete": "Видалити",
+  "common_edit": "Редагувати",
+  "common_share": "Поділитися",
+  "common_search": "Пошук",
+  "common_settings": "Налаштування",
+  "common_back": "Назад",
+  "common_next": "Далі",
+  "common_loading": "Завантаження...",
+  "common_error": "Сталася помилка",
+  "common_retry": "Повторити",
+  
+  "main_title": "Простори Liten",
+  "@main_title": {
+    "description": "Заголовок головного екрану"
+  },
+  
+  "main_create_new": "Створити новий Liten",
+  "main_empty_message": "Поки немає просторів Liten.\nСтворіть новий, щоб почати.",
+  
+  "liten_space_title": "Простір Liten",
+  "liten_space_description": "Простір для керування голосом, текстом та малюнками разом",
+  
+  "audio_record": "Записати",
+  "audio_stop": "Зупинити",
+  "audio_play": "Відтворити",
+  "audio_pause": "Пауза",
+  "audio_duration": "Тривалість: {duration}",
+  "@audio_duration": {
+    "description": "Відображення тривалості аудіо",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "Текстовий редактор",
+  "text_editor_placeholder": "Введіть ваш контент тут...",
+  "text_editor_word_count": "{count} символів",
+  "@text_editor_word_count": {
+    "description": "Відображення кількості символів",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "Малювання та ескізи",
+  "drawing_pen": "Ручка",
+  "drawing_eraser": "Гумка",
+  "drawing_clear": "Очистити все",
+  "drawing_undo": "Скасувати",
+  "drawing_redo": "Повторити",
+  
+  "settings_title": "Налаштування",
+  "settings_theme": "Тема",
+  "settings_language": "Мова",
+  "settings_audio_quality": "Якість аудіо",
+  "settings_storage": "Сховище",
+  "settings_about": "Про програму",
+  
+  "theme_classic_blue": "Класичний синій",
+  "theme_dark_mode": "Темний режим",
+  "theme_nature_green": "Природний зелений",
+  "theme_sunset_orange": "Помаранчевий захід",
+  "theme_monochrome_grey": "Монохромний сірий",
+  
+  "error_permission_denied": "Дозвіл відхилено",
+  "error_storage_full": "Сховище заповнено",
+  "error_file_not_found": "Файл не знайдено",
+  "error_network_unavailable": "Мережа недоступна",
+  
+  "permission_microphone_title": "Дозвіл на мікрофон",
+  "permission_microphone_message": "Дозвіл на мікрофон потрібен для запису голосу",
+  "permission_storage_title": "Дозвіл на сховище",
+  "permission_storage_message": "Дозвіл на сховище потрібен для збереження файлів",
+  
+  "sync_title": "Синхронізація",
+  "sync_last_updated": "Останнє оновлення: {date}",
+  "@sync_last_updated": {
+    "description": "Час останньої синхронізації",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "Безкоштовна версія",
+  "version_standard": "Стандартна версія", 
+  "version_premium": "Преміум версія",
+  
+  "ad_banner_message": "Оновіться до стандартної версії, щоб прибрати рекламу"
+}

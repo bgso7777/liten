@@ -1,0 +1,115 @@
+{
+  "@@locale": "th",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "ชื่อแอปพลิเคชัน"
+  },
+  
+  "appDescription": "แอปจดบันทึกซิงค์เสียง-ข้อความ",
+  "@appDescription": {
+    "description": "คำอธิบายแอปพลิเคชัน"
+  },
+  
+  "common_ok": "ตกลง",
+  "common_cancel": "ยกเลิก",
+  "common_save": "บันทึก",
+  "common_delete": "ลบ",
+  "common_edit": "แก้ไข",
+  "common_share": "แชร์",
+  "common_search": "ค้นหา",
+  "common_settings": "การตั้งค่า",
+  "common_back": "กลับ",
+  "common_next": "ถัดไป",
+  "common_loading": "กำลังโหลด...",
+  "common_error": "เกิดข้อผิดพลาด",
+  "common_retry": "ลองใหม่",
+  
+  "main_title": "พื้นที่ Liten",
+  "@main_title": {
+    "description": "หัวข้อหน้าจอหลัก"
+  },
+  
+  "main_create_new": "สร้าง Liten ใหม่",
+  "main_empty_message": "ยังไม่มีพื้นที่ Liten\nสร้างใหม่เพื่อเริ่มต้น",
+  
+  "liten_space_title": "พื้นที่ Liten",
+  "liten_space_description": "พื้นที่สำหรับจัดการเสียง ข้อความ และรูปวาดร่วมกัน",
+  
+  "audio_record": "บันทึก",
+  "audio_stop": "หยุด",
+  "audio_play": "เล่น",
+  "audio_pause": "หยุดชั่วคราว",
+  "audio_duration": "ระยะเวลา: {duration}",
+  "@audio_duration": {
+    "description": "การแสดงระยะเวลาเสียง",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "โปรแกรมแก้ไขข้อความ",
+  "text_editor_placeholder": "ป้อนเนื้อหาของคุณที่นี่...",
+  "text_editor_word_count": "{count} ตัวอักษร",
+  "@text_editor_word_count": {
+    "description": "การแสดงจำนวนตัวอักษร",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "วาดภาพและร่างภาพ",
+  "drawing_pen": "ปากกา",
+  "drawing_eraser": "ยางลบ",
+  "drawing_clear": "ลบทั้งหมด",
+  "drawing_undo": "ยกเลิก",
+  "drawing_redo": "ทำซ้ำ",
+  
+  "settings_title": "การตั้งค่า",
+  "settings_theme": "ธีม",
+  "settings_language": "ภาษา",
+  "settings_audio_quality": "คุณภาพเสียง",
+  "settings_storage": "การจัดเก็บ",
+  "settings_about": "เกี่ยวกับ",
+  
+  "theme_classic_blue": "สีน้ำเงินคลาสสิค",
+  "theme_dark_mode": "โหมดมืด",
+  "theme_nature_green": "สีเขียวธรรมชาติ",
+  "theme_sunset_orange": "สีส้มพระอาทิตย์ตก",
+  "theme_monochrome_grey": "สีเทาโมโนโครม",
+  
+  "error_permission_denied": "การอนุญาตถูกปฏิเสธ",
+  "error_storage_full": "พื้นที่จัดเก็บเต็ม",
+  "error_file_not_found": "ไม่พบไฟล์",
+  "error_network_unavailable": "เครือข่ายไม่พร้อมใช้งาน",
+  
+  "permission_microphone_title": "การอนุญาตไมโครโฟน",
+  "permission_microphone_message": "ต้องการการอนุญาตไมโครโฟนสำหรับการบันทึกเสียง",
+  "permission_storage_title": "การอนุญาตการจัดเก็บ",
+  "permission_storage_message": "ต้องการการอนุญาตการจัดเก็บสำหรับการบันทึกไฟล์",
+  
+  "sync_title": "ซิงค์",
+  "sync_last_updated": "อัปเดตล่าสุด: {date}",
+  "@sync_last_updated": {
+    "description": "เวลาซิงค์ล่าสุด",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "เวอร์ชันฟรี",
+  "version_standard": "เวอร์ชันมาตรฐาน", 
+  "version_premium": "เวอร์ชันพรีเมียม",
+  
+  "ad_banner_message": "อัปเกรดเป็นเวอร์ชันมาตรฐานเพื่อลบโฆษณา"
+}

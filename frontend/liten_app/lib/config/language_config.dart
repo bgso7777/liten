@@ -19,14 +19,47 @@ class SupportedLanguage {
 
 /// 언어 데이터 관리 클래스
 class LanguageConfig {
-  /// 지원하는 31개 언어 목록
-  static const List<SupportedLanguage> supportedLanguages = [
+  /// 지원되는 모든 언어 목록 (30개 언어 지원)
+  static const List<SupportedLanguage> currentlySupportedLanguages = [
+    // 기본 언어 (영어가 기본값)
+    SupportedLanguage(code: 'en', name: 'English', nativeName: 'English', flag: '🇺🇸'),
+    SupportedLanguage(code: 'ko', name: 'Korean', nativeName: '한국어', flag: '🇰🇷'),
+    
+    // 주요 언어들 (알파벳 순)
+    SupportedLanguage(code: 'ar', name: 'Arabic', nativeName: 'العربية', flag: '🇸🇦', isRTL: true),
+    SupportedLanguage(code: 'bn', name: 'Bengali', nativeName: 'বাংলা', flag: '🇧🇩'),
+    SupportedLanguage(code: 'de', name: 'German', nativeName: 'Deutsch', flag: '🇩🇪'),
+    SupportedLanguage(code: 'es', name: 'Spanish', nativeName: 'Español', flag: '🇪🇸'),
+    SupportedLanguage(code: 'fa', name: 'Persian', nativeName: 'فارسی', flag: '🇮🇷', isRTL: true),
+    SupportedLanguage(code: 'fr', name: 'French', nativeName: 'Français', flag: '🇫🇷'),
+    SupportedLanguage(code: 'hi', name: 'Hindi', nativeName: 'हिन्दी', flag: '🇮🇳'),
+    SupportedLanguage(code: 'id', name: 'Indonesian', nativeName: 'Bahasa Indonesia', flag: '🇮🇩'),
+    SupportedLanguage(code: 'it', name: 'Italian', nativeName: 'Italiano', flag: '🇮🇹'),
+    SupportedLanguage(code: 'ja', name: 'Japanese', nativeName: '日本語', flag: '🇯🇵'),
+    SupportedLanguage(code: 'ms', name: 'Malay', nativeName: 'Bahasa Melayu', flag: '🇲🇾'),
+    SupportedLanguage(code: 'nl', name: 'Dutch', nativeName: 'Nederlands', flag: '🇳🇱'),
+    SupportedLanguage(code: 'pl', name: 'Polish', nativeName: 'Polski', flag: '🇵🇱'),
+    SupportedLanguage(code: 'pt', name: 'Portuguese', nativeName: 'Português', flag: '🇵🇹'),
+    SupportedLanguage(code: 'ro', name: 'Romanian', nativeName: 'Română', flag: '🇷🇴'),
+    SupportedLanguage(code: 'ru', name: 'Russian', nativeName: 'Русский', flag: '🇷🇺'),
+    SupportedLanguage(code: 'sw', name: 'Swahili', nativeName: 'Kiswahili', flag: '🇰🇪'),
+    SupportedLanguage(code: 'ta', name: 'Tamil', nativeName: 'தமிழ்', flag: '🇱🇰'),
+    SupportedLanguage(code: 'th', name: 'Thai', nativeName: 'ไทย', flag: '🇹🇭'),
+    SupportedLanguage(code: 'tl', name: 'Filipino', nativeName: 'Filipino', flag: '🇵🇭'),
+    SupportedLanguage(code: 'tr', name: 'Turkish', nativeName: 'Türkçe', flag: '🇹🇷'),
+    SupportedLanguage(code: 'uk', name: 'Ukrainian', nativeName: 'Українська', flag: '🇺🇦'),
+    SupportedLanguage(code: 'ur', name: 'Urdu', nativeName: 'اردو', flag: '🇵🇰', isRTL: true),
+    SupportedLanguage(code: 'vi', name: 'Vietnamese', nativeName: 'Tiếng Việt', flag: '🇻🇳'),
+    SupportedLanguage(code: 'zh', name: 'Chinese (Simplified)', nativeName: '简体中文', flag: '🇨🇳'),
+  ];
+
+  /// 향후 지원 예정인 31개 언어 전체 목록
+  static const List<SupportedLanguage> allPlannedLanguages = [
     // 주요 언어 (기존 14개)
     SupportedLanguage(code: 'ko', name: 'Korean', nativeName: '한국어', flag: '🇰🇷'),
     SupportedLanguage(code: 'en', name: 'English', nativeName: 'English', flag: '🇺🇸'),
     SupportedLanguage(code: 'ja', name: 'Japanese', nativeName: '日本語', flag: '🇯🇵'),
     SupportedLanguage(code: 'zh', name: 'Chinese (Simplified)', nativeName: '简体中文', flag: '🇨🇳'),
-    SupportedLanguage(code: 'zh-TW', name: 'Chinese (Traditional)', nativeName: '繁體中文', flag: '🇹🇼'),
     SupportedLanguage(code: 'es', name: 'Spanish', nativeName: 'Español', flag: '🇪🇸'),
     SupportedLanguage(code: 'fr', name: 'French', nativeName: 'Français', flag: '🇫🇷'),
     SupportedLanguage(code: 'de', name: 'German', nativeName: 'Deutsch', flag: '🇩🇪'),
@@ -61,11 +94,14 @@ class LanguageConfig {
     SupportedLanguage(code: 'sw', name: 'Swahili', nativeName: 'Kiswahili', flag: '🇰🇪'),
   ];
 
+  /// 현재 지원되는 언어 목록 반환 (UI에서 사용)
+  static List<SupportedLanguage> get supportedLanguages => currentlySupportedLanguages;
+
   /// 언어 코드로 언어 정보 조회
   static SupportedLanguage getLanguageByCode(String code) {
-    return supportedLanguages.firstWhere(
+    return currentlySupportedLanguages.firstWhere(
       (lang) => lang.code == code,
-      orElse: () => supportedLanguages.first, // 기본값: 한국어
+      orElse: () => currentlySupportedLanguages.first, // 기본값: 영어
     );
   }
 
@@ -126,7 +162,7 @@ class LanguageConfig {
 
   /// 지원되는 로케일 목록 (Flutter용)
   static List<Locale> get supportedLocales {
-    return supportedLanguages.map((lang) {
+    return currentlySupportedLanguages.map((lang) {
       final parts = lang.code.split('-');
       if (parts.length == 2) {
         return Locale(parts[0], parts[1]);
@@ -143,23 +179,39 @@ class LanguageConfig {
     // 정확한 매치 (언어+국가)
     if (countryCode != null) {
       final fullCode = '$languageCode-$countryCode';
-      if (supportedLanguages.any((lang) => lang.code == fullCode)) {
+      if (currentlySupportedLanguages.any((lang) => lang.code == fullCode)) {
         return fullCode;
       }
     }
     
     // 언어만 매치
-    if (supportedLanguages.any((lang) => lang.code == languageCode)) {
+    if (currentlySupportedLanguages.any((lang) => lang.code == languageCode)) {
       return languageCode;
     }
     
-    // 기본값: 한국어
-    return 'ko';
+    // 기본값: 영어
+    return 'en';
   }
 
   /// RTL 언어 확인
   static bool isRTL(String languageCode) {
     final language = getLanguageByCode(languageCode);
     return language.isRTL;
+  }
+
+  /// 현재 지원되는 언어 개수
+  static int get supportedLanguageCount => currentlySupportedLanguages.length;
+
+  /// 계획된 전체 언어 개수  
+  static int get plannedLanguageCount => allPlannedLanguages.length;
+
+  /// 언어 지원 상태 메시지
+  static String getLanguageSupportStatus() {
+    return '$supportedLanguageCount개 언어 지원';
+  }
+
+  /// 특정 언어가 현재 지원되는지 확인
+  static bool isCurrentlySupported(String languageCode) {
+    return currentlySupportedLanguages.any((lang) => lang.code == languageCode);
   }
 }

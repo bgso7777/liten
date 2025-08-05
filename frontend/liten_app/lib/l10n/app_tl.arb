@@ -1,0 +1,115 @@
+{
+  "@@locale": "tl",
+  "@@author": "Liten Team",
+  
+  "appTitle": "Liten",
+  "@appTitle": {
+    "description": "Pangalan ng app"
+  },
+  
+  "appDescription": "Voice-Text synchronized na note app",
+  "@appDescription": {
+    "description": "Paglalarawan ng app"
+  },
+  
+  "common_ok": "OK",
+  "common_cancel": "Kanselahin",
+  "common_save": "I-save",
+  "common_delete": "Tanggalin",
+  "common_edit": "I-edit",
+  "common_share": "I-share",
+  "common_search": "Maghanap",
+  "common_settings": "Mga Setting",
+  "common_back": "Bumalik",
+  "common_next": "Susunod",
+  "common_loading": "Naglo-load...",
+  "common_error": "May naganap na error",
+  "common_retry": "Subukan ulit",
+  
+  "main_title": "Mga Liten Space",
+  "@main_title": {
+    "description": "Pamagat ng main screen"
+  },
+  
+  "main_create_new": "Gumawa ng Bagong Liten",
+  "main_empty_message": "Wala pang mga Liten space.\nGumawa ng bago para magsimula.",
+  
+  "liten_space_title": "Liten Space",
+  "liten_space_description": "Isang space para pamahalaan ang voice, text, at drawings nang sama-sama",
+  
+  "audio_record": "I-record",
+  "audio_stop": "Itigil",
+  "audio_play": "I-play",
+  "audio_pause": "I-pause",
+  "audio_duration": "Tagal: {duration}",
+  "@audio_duration": {
+    "description": "Pagpapakita ng tagal ng audio",
+    "placeholders": {
+      "duration": {
+        "type": "String",
+        "example": "05:30"
+      }
+    }
+  },
+  
+  "text_editor_title": "Text Editor",
+  "text_editor_placeholder": "Ilagay ang inyong content dito...",
+  "text_editor_word_count": "{count} na character",
+  "@text_editor_word_count": {
+    "description": "Pagpapakita ng bilang ng character",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "150"
+      }
+    }
+  },
+  
+  "drawing_title": "Drawing at Sketching",
+  "drawing_pen": "Panulat",
+  "drawing_eraser": "Pambura",
+  "drawing_clear": "Burahin Lahat",
+  "drawing_undo": "I-undo",
+  "drawing_redo": "I-redo",
+  
+  "settings_title": "Mga Setting",
+  "settings_theme": "Theme",
+  "settings_language": "Wika",
+  "settings_audio_quality": "Kalidad ng Audio",
+  "settings_storage": "Storage",
+  "settings_about": "Tungkol sa",
+  
+  "theme_classic_blue": "Classic Blue",
+  "theme_dark_mode": "Dark Mode",
+  "theme_nature_green": "Nature Green",
+  "theme_sunset_orange": "Sunset Orange",
+  "theme_monochrome_grey": "Monochrome Grey",
+  
+  "error_permission_denied": "Tinanggihan ang permission",
+  "error_storage_full": "Puno na ang storage",
+  "error_file_not_found": "Hindi nahanap ang file",
+  "error_network_unavailable": "Hindi available ang network",
+  
+  "permission_microphone_title": "Microphone Permission",
+  "permission_microphone_message": "Kailangan ang microphone permission para sa voice recording",
+  "permission_storage_title": "Storage Permission",
+  "permission_storage_message": "Kailangan ang storage permission para sa pag-save ng mga file",
+  
+  "sync_title": "Sync",
+  "sync_last_updated": "Huling na-update: {date}",
+  "@sync_last_updated": {
+    "description": "Oras ng huling sync",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2024-01-01 12:00"
+      }
+    }
+  },
+  
+  "version_free": "Free Version",
+  "version_standard": "Standard Version", 
+  "version_premium": "Premium Version",
+  
+  "ad_banner_message": "Mag-upgrade sa Standard version para tanggalin ang mga ads"
+}
